@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Automatic License Plate Recognition"
+date:   2020-02-07 01:23:10 +0000
+categories: micrometreuk-articles
+---
+Micrometre OpenAlpr is Automatic Number Plate Recognition with web interface
+Dependencies
+
+ubuntu 18.04
+nodejs
+1. Clone the repo & change to the directory
+{% highlight ruby %}
+
+git clone https://github.com/micrometre/anpr.git
+cd anpr
+npm start
+npm test
+{% endhighlight %}
+

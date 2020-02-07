@@ -1,0 +1,76 @@
+---
+layout: post
+title:  "Install Docker!"
+date:   2020-02-07 01:23:10 +0000
+categories: micrometreuk-articles
+---
+### Install Docker CE and Docker Compose
+
+- Uninstall older versions of Docker, docker.io, or docker-engine.
+
+``` bash
+sudo apt-get remove docker docker-engine docker.io containerd runc
+
+```
+Update the apt package index:
+
+``` bash
+sudo apt-get update
+```
+Install packages to allow apt to use a repository over HTTPS:
+``` bash
+sudo apt-get install \
+apt-transport-https \
+ca-certificates \
+curl \
+gnupg-agent \
+software-properties-common
+```
+Add Docker’s official GPG key:
+``` bash
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+```
+Set up the stable repository.
+```bash
+sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
+```
+Update the apt package index:
+
+``` bash
+sudo apt-get update
+```
+- Install the latest version
+``` bash
+sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose
+```
+To use Docker as a non-root user add the user to the “docker” group:
+```bash
+sudo usermod -aG docker $USER
+```
+> log out and back in for this to take effect!
+
+### Get Micrometre ANPR
+```bash
+git clone git@github.com:micrometreuk/anpr.git
+cd anpr
+```
+#### Start using the Makefile
+
+``` bash
+start_docker:
+	docker-compose up
+update_docker:
+	docker-compose stop
+	docker-compose rm -f
+	docker-compose pull
+	docker-compose up -d --build
+`
+
+For more info on how to get the most out of micrometreuk anpr or If you have questions, you can ask them on [micrometreuk Talk][micrometreuk-talk].
+
+[micrometreuk-docs]: https://micrometreukrb.com/docs/home
+[micrometreuk-gh]:   https://github.com/micrometreuk
+[micrometreuk-talk]: https://im.micrometre.uk
