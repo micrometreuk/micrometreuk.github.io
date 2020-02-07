@@ -1,26 +1,17 @@
-<<<<<<< HEAD
-upgrade:
-=======
-install:
+delete_cache:
 	rm -rf .jekyll-cache
+install:
 	gem install jekyll bundler
 serve: 	
-	rm -rf .jekyll-cache
-	bundle exec jekyll serve
+	bundle exec jekyll serve --host=0.0.0.0
 watch:
-	rm -rf .jekyll-cache
-	bundle exec jekyll serve --watch --force_polling --verbose
+	bundle exec jekyll serve --host=0.0.0.0 --watch --force_polling --verbose
 start_docker:	
 	rm -rf .jekyll-cache
 	docker-compose up -d
 update_docker:
 	rm -rf .jekyll-cache
->>>>>>> 24ef88f52d54c7da1b6e0c3b4b0f97786eb7dbe9
 	docker-compose stop
 	docker-compose rm -f
 	docker-compose pull
 	docker-compose up -d --build
-<<<<<<< HEAD
-=======
-
->>>>>>> 24ef88f52d54c7da1b6e0c3b4b0f97786eb7dbe9
