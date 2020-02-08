@@ -44,7 +44,7 @@ Update the apt package index:
 ``` bash
 sudo apt-get update
 ```
-- Install the latest version
+Install the latest version
 ``` bash
 sudo apt-get install docker-ce docker-ce-cli containerd.io docker-compose
 ```
@@ -52,11 +52,5 @@ To use Docker as a non-root user add the user to the “docker” group:
 ```bash
 sudo usermod -aG docker $USER
 ```
+--------------------------------------------------------------------------------------------------------------------------------------------
 > log out and back in for this to take effect!
-
-
-For more info  or If you have questions, you can ask them on [micrometreuk Talk][micrometreuk-talk].
-
-[micrometreuk-docs]: https://micrometreukrb.com/docs/home
-[micrometreuk-gh]:   https://github.com/micrometreuk
-[micrometreuk-talk]: https://im.micrometre.uk

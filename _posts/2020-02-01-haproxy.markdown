@@ -32,12 +32,3 @@ You should see somthing displayed similar to the below:
 ![Alt Text](/assets/images/demo.gif)
 
 
-
-
-
-Check out the repository [Micrometreuk haproxy][micrometreuk-gh]
-For more info or if you have questions, you can ask them on [Micrometreuk Rocket chat][micrometreuk-talk].
-
-[micrometreuk-gh]:   https://github.com/micrometreuk/haproxy
-[micrometreuk-talk]: https://im.micrometre.uk
-

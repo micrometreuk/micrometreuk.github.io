@@ -7,58 +7,30 @@ categories: micrometreuk-articles
 
 
 
-### Interactive platforms
-
-<a href="https://labs.play-with-docker.com " target="_blank">A simple, interactive and fun playground to learn Docker </a>
-
-<a href="https://www.katacoda.com/ " target="_blank">Learn new technologies using real environments a web browser  </a>
-
-<a href="https://ionicabizau.github.io/ejs-playground/  " target="_blank">A web app to play with EJS templates.</a>
-
-<a href="https://jsdf.github.io/little-virtual-computer/computer1 " target="_blank">Learn how computers work by simulating them in Javascript </a>
-
-<a href="https://repl.it/languages/javascript " target="_blank"> Simple online compiler, IDE, interpreter, and REPL. Code, compile, and run code in 50+ programming languages</a>
+### Interactive Platforms
 
 
+
+Learn new technologies in a web browser  <a href="https://www.katacoda.com/ " target="_blank">  https://www.katacoda.com </a> 
+
+Compiler, IDE, interpreter, and REPL     <a href="https://repl.it" target="_blank"> https://repl.it</a>
 
 ### Machine/Deep learning and Data Science
--   https://www.floydhub.com
--   https://www.tensorflow.org/tutorials/quickstart/beginner
--   https://github.com/pjreddie/darknet
+
+Managed cloud platform for data science  <a href="https://www.floydhub.com" target="_blank">https://www.floydhub.com</a>
+
+Open source machine learning platform <a href="https://www.tensorflow.org/tutorials/quickstart/beginner" target="_blank">https://www.tensorflow.org </a>
+
 
 
 ### Cyber Security
--   https://security.stackexchange.com
--   https://www.itgovernance.co.uk/what-is-cybersecurity
--   https://www.cloudflare.com/learning/security/what-is-web-application-security
--   https://www.cloudflare.com/learning/security/threats/owasp-top-10
--   https://sweshsec.wordpress.com/2015/07/31vsftpd-vulnerability-exploitation-with-manual-approach
--   https://codex.wordpress.org/Combating_Comment_Spam
+https://security.stackexchange.com
+https://www.itgovernance.co.uk/what-is-cybersecurity
+https://www.cloudflare.com/learning/security
+https://www.metasploit.com
+https://www.exploit-db.com
+Web application security scanner.    -   https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
 
-### Pentration testing
--   Metasploit Framework (MSF).
-    -   https://www.metasploit.com
-    -   https://information.rapid7.com/download-metasploitable-2017.html
-    -   https://fedoraproject.org/wiki/Metasploit_Postgres_Setup
-    -   https://www.exploit-db.com/searchsploit
-    -   https://www.offensive-security.com/metasploit-unleashed/msfconsole
-    -   https://metasploit.help.rapid7.com/docs
-    -   https://www.exploit-db.com
-    -   https://uwnthesis.wordpress.com/2013/07/09/kali-how-to-install-armitage-the-visual-guide
-
--   Web application security scanner.
-    -   https://en.wikipedia.org/wiki/Burp_suite
-    -   https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
-
-
-
-### Monitoring, hardening and Benchmarking
--   https://www.digitalocean.com/community/tutorials/how-to-securely-manage-secrets-with-hashicorp-vault-on-ubuntu-16-04
--   https://serverspec.org/resource_types.html
-
-### Vpn
--   https://www.digitalocean.com/community/tutorialshow-to-create-a-point-to-point-vpn-with-wireguard-on-ubuntu-16-04
--   https://www.linode.com/docs/networking/vpn/set-up-wireguard-vpn-on-ubuntu
 
 ### Reviews and ranking popular open source tools
 -   https://stackshare.io/
@@ -69,82 +41,6 @@ categories: micrometreuk-articles
 ### Linx/Open source Phones
 -   https://www.pine64.org/pinephone
 -   https://puri.sm/products/librem-5
--   https://ubports.com
--   https://postmarketos.org/
--   https://www.webos-ports.org/wiki/Main_Page LuneOS (webOS based)
--   https://replicant.us/ Replicant (Android based)
--   https://tracker.pureos.net/w/faq/ PureOS
 
-
-
-### ANPR/ALPR licence plate recognition
--   https://arduinoinfo.mywikis.net/wiki/LicensePlateRecognition
--   https://towardsdatascience.com/automatic-license-plate-detection-recognition-using-deep-learning-624def07eaaf
--   https://blog.devcenter.co/developing-a-license-plate-recognition-system-with-machine-learning-in-python-787833569ccd
--   https://github.com/marcbelmont/deep-license-plate-recognition
-
-### Javascript/Nodejs
--   https://strongloop.com/strongblog/streaming-chunked-html-node-js-data
--   https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a
--   https://jscomplete.com/learn/node-beyond-basics/node-streams#what-exactly-are-streams
--   https://www.freecodecamp.org/news/node-js-child-processes-everything-you-need-to-know-e69498fe970a
--   https://stackoverflow.com/questions/21934831/nodejs-express-stream-stdout-instantly-to-the-client
--   https://nodejs.org/en/knowledge/advanced/streams/how-to-use-stream-pipe
--   https://www.freecodecamp.org/news/node-js-streams-everything-you-need-to-know-c9141306be93
--   https://nodejs.org/en/knowledge/advanced/streams/how-to-use-stream-pipe
--   https://www.mongodb.com/blog/post/nedb-a-lightweight-javascript-database-using
--   https://github.com/lorenwest/node-config/wiki/Special-features-for-JavaScript-configuration-files
--   https://blog.cloudboost.io/node-js-writing-shell-scripts-using-modern-javascript-instead-of-bash-774e0859f965
--   http://jsforcats.com So easy your human companion could do it too!
--   isomorphic-git/isomorphic-git: A pure JavaScript implementation of git for node and browsers!
--   https://www.carbonatethis.com/push-notifications-from-a-child-process-using-node-angular-and-socket-io
--   http://cloudcmd.io Cloud file manager with console and editor
--   https://onedesigncompany.com/news/express-generator-and-socket-io
--   https://learn.co/lessons/using-ejs-in-express
--   https://malcoded.com/posts/angular-backend-express
--
-
-
-<a href="https://blog.eduonix.com/shell-scripting/learn-cgi-scripting-using-bash-in-linux-shell-scripting" target="_blank">Cgi Scripting in Linux shell script  </a>
-
-<a href="https://cloudcmd.io/" target="_blank">Cloudcmd</a>
-
-<a href="https://onedesigncompany.com/news/express-generator-and-socket-io " target="_blank">Express_Nodejs socket.io</a>
-
-<a href="https://help.keyman.com/keyboard/gff_amh_7/1.4/AmharicTyping-English.pdf " target="_blank">AmharicTyping English.</a>
-
-<a href="OpenALPR API — openalpr 2.7.102 documentation " target="_blank"></a>
-
-<a href="https://malcoded.com/posts/angular-backend-express/ " target="_blank"></a>
-
-<a href="https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs " target="_blank"></a>
-
-<a href="https://medium.com/the-node-js-collection/making-your-node-js-work-everywhere-with-environment-variables-2da8cdf6e786 " target="_blank"></a>
-
-<a href="https://github.com/lorenwest/node-config/wiki/Special-features-for-JavaScript-configuration-files " target="_blank"></a>
-
-<a href="https://github.com/expressjs/express/tree/master/examples " target="_blank"></a>
-
-<a href="https://blog.cloudboost.io/node-js-writing-shell-scripts-using-modern-javascript-instead-of-bash-774e0859f965 " target="_blank"></a>
-
-<a href="https://fabric8.io/ " target="_blank"></a>
-
-<a href="https://openlitespeed.org/ " target="_blank"></a>
-
-<a href="https://marketplace.digitalocean.com/apps/cloudron " target="_blank"></a>
-
-<a href="https://www.digitalocean.com/community/tutorials/how-to-manage-and-monitor-docker-containers-with-dry-on-ubuntu-16-04 " target="_blank"></a>
-
-<a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks " target="_blank"></a>
-
-<a href="https://www.digitalocean.com/community/tutorials/how-to-install-and-configure-drone-on-ubuntu-16-04 " target="_blank"></a>
-
-<a href="https://www.digitalocean.com/community/tutorials/how-to-use-git-hooks-to-automate-development-and-deployment-tasks " target="_blank"></a>
-
-<a href="https://www.digitalocean.com/community/tutorials/how-to-set-up-automatic-deployment-with-git-with-a-vps " target="_blank"></a>
-
-<a href="https://gist.github.com/noelboss/3fe13927025b89757f8fb12e9066f2fa " target="_blank"></a>
-
-<a href="https://devhints.io/jekyll " target="_blank"></a>
-
-<a href="https://jekyllrb.com/docs/continuous-integration/travis-ci/ " target="_blank"></a>
+<pre>
+</pre>
