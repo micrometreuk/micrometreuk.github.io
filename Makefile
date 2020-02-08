@@ -6,10 +6,10 @@ serve:
 	bundle exec jekyll serve --host=0.0.0.0
 watch:
 	bundle exec jekyll serve --host=0.0.0.0 --watch --force_polling --verbose
-start_docker:	
+start:	
 	rm -rf .jekyll-cache
 	docker-compose up -d
-update_docker:
+update:
 	rm -rf .jekyll-cache
 	docker-compose stop
 	docker-compose rm -f
