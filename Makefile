@@ -15,3 +15,7 @@ update_docker:
 	docker-compose rm -f
 	docker-compose pull
 	docker-compose up -d --build
+docker-start:
+	docker-compose start
+docker-stop:
+	docker-compose stop

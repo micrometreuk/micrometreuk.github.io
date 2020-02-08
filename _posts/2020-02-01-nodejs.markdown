@@ -7,13 +7,16 @@ categories: micrometreuk-articles
 
 
 #### Install Node.js (LTS) on  Ubuntu debian based linux distribution
-For the latest installation guide on Node.js website
-https://nodejs.org
+
+
 ```bash
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
 sudo apt-get update
 sudo apt-get install -y nodejs
 ```
+
+For the latest installation guide on Node.js website
+https://nodejs.org
 
 For more info or If you have questions, you can ask them on [micrometreuk Talk][micrometreuk-talk].
 

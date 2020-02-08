@@ -10,6 +10,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+
+header_pages:
+  - hosting.md
+  - services.md
+  - contact.md
+show_excerpts: true
+
 # exclude:
 #   - .sass-cache/
 #   - .jekyll-cache/
