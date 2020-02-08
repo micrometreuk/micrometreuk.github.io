@@ -15,6 +15,7 @@ header_pages:
   - hosting.md
   - services.md
   - contact.md
+  - privacy.md
 show_excerpts: true
 
 # exclude:
