@@ -5,6 +5,8 @@ date:   2020-02-07 01:23:10 +0000
 categories: micrometreuk-articles
 ---
 ### Install Docker CE and Docker Compose
+Debian and Ubuntu based Linux distributions
+
 
 - Uninstall older versions of Docker, docker.io, or docker-engine.
 
@@ -52,24 +54,8 @@ sudo usermod -aG docker $USER
 ```
 > log out and back in for this to take effect!
 
-### Get Micrometre ANPR
-```bash
-git clone git@github.com:micrometreuk/anpr.git
-cd anpr
-```
-#### Start using the Makefile
 
-``` bash
-start_docker:
-	docker-compose up
-update_docker:
-	docker-compose stop
-	docker-compose rm -f
-	docker-compose pull
-	docker-compose up -d --build
-`
-
-For more info on how to get the most out of micrometreuk anpr or If you have questions, you can ask them on [micrometreuk Talk][micrometreuk-talk].
+For more info  or If you have questions, you can ask them on [micrometreuk Talk][micrometreuk-talk].
 
 [micrometreuk-docs]: https://micrometreukrb.com/docs/home
 [micrometreuk-gh]:   https://github.com/micrometreuk
