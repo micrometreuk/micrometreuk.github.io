@@ -13,6 +13,8 @@ categories: micrometreuk-articles
 
 <a href="https://www.katacoda.com/ " target="_blank"> Learn new technologies in a web browser https://www.katacoda.com</a> 
 
+<a href="https://ubuntu.com/tutorials" target="_blank">Tutorials for dev-ops and activities on Ubuntu machines https://ubuntu.com/tutorials</a> 
+
 <a href="https://repl.it" target="_blank"> Compiler, IDE, interpreter, REPL and Real-time collaborative https://repl.it</a>
 
 <a href="https://www.floydhub.com" target="_blank">Managed cloud platform for data science https://www.floydhub.com</a>
