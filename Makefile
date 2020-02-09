@@ -10,7 +10,7 @@ watch:
 start:	
 	rm -rf .jekyll-cache
 	docker-compose up -d
-update:
+upgrade:
 	rm -rf .jekyll-cache
 	docker-compose stop
 	docker-compose rm -f
@@ -20,3 +20,8 @@ docker-start:
 	docker-compose start
 docker-stop:
 	docker-compose stop
+build-repo:	
+	git pull
+	docker-compose stop
+	docker-compose start
+
