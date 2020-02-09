@@ -5,29 +5,27 @@ permalink: /hosting/
 ---
 
 
-#### Hosted services include:
 
-    - messaging platforms Slack alternatives
-        Replace email, HipChat & Slack with  team chat software solution.
+###  Messaging platforms Slack alternatives
 
-    - File sharing and cloud storage from centralized location.   
-        Avoid the risks associated with on-premises server. 
-        Take Control and security of your data collaborate on files securely. 
+- Replace email, HipChat & Slack with  team chat software solution.
+<pre>
+</pre>
+### File sharing and cloud storage from centralized location.   
 
+- Avoid the risks associated with on-premises server. 
 
-
-
-Rocket.chat/Mattermost
-Next cloud
-Wordpress deployment.
-service  with  support package. 
+- Take Control and security of your data collaborate on files securely. 
 
 
 
-<a href="https://github.com/micrometreuk" target="_blank">Find us on GitHub https://github.com/micrometreuk</a> 
 
-<a href="https://im.micrometre.uk" target="_blank">Contact us Micrometreuk https://im.micrometre.uk</a>
+Next cloud  | Wordpress 
 
-[micrometreuk-gh]:   https://github.com/micrometreuk
-[micrometreuk-talk]: https://im.micrometre.uk
+Rocket.chat | Mattermost
+
+
+#### ***Service  with  support package.*** 
+
+
 
