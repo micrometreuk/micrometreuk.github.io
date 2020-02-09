@@ -9,8 +9,8 @@ permalink: /hosting/
 ###  Messaging platforms Slack alternatives
 
 - Replace email, HipChat & Slack with  team chat software solution.
-<pre>
-</pre>
+
+
 ### File sharing and cloud storage from centralized location.   
 
 - Avoid the risks associated with on-premises server. 
@@ -19,13 +19,13 @@ permalink: /hosting/
 
 
 
+#### Service  with  support package.
 
 Next cloud  | Wordpress 
 
 Rocket.chat | Mattermost
 
 
-#### ***Service  with  support package.*** 
 
 
 
