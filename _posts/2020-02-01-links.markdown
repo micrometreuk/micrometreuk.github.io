@@ -7,40 +7,36 @@ categories: micrometreuk-articles
 
 
 
-### Interactive Platforms
+### Developer tools and Tutorials.
 
 
 
-Learn new technologies in a web browser  <a href="https://www.katacoda.com/ " target="_blank">  https://www.katacoda.com </a> 
+<a href="https://www.katacoda.com/ " target="_blank"> Learn new technologies in a web browser https://www.katacoda.com </a> 
 
-Compiler, IDE, interpreter, and REPL     <a href="https://repl.it" target="_blank"> https://repl.it</a>
-
-### Machine/Deep learning and Data Science
-
-Managed cloud platform for data science  <a href="https://www.floydhub.com" target="_blank">https://www.floydhub.com</a>
-
-Open source machine learning platform <a href="https://www.tensorflow.org/tutorials/quickstart/beginner" target="_blank">https://www.tensorflow.org </a>
+<a href="https://repl.it" target="_blank"> Compiler, IDE, interpreter, REPL and Real-time collaborative https://repl.it</a>
 
 
+<a href="https://www.floydhub.com" target="_blank">Managed cloud platform for data science https://www.floydhub.com</a>
 
-### Cyber Security
-https://security.stackexchange.com
-https://www.itgovernance.co.uk/what-is-cybersecurity
-https://www.cloudflare.com/learning/security
-https://www.metasploit.com
-https://www.exploit-db.com
-Web application security scanner.    -   https://www.owasp.org/index.php/OWASP_Zed_Attack_Proxy_Project
+<a href="https://www.tensorflow.org/tutorials" target="_blank"> Open source machine learning platform https://www.tensorflow.org </a>
+
+<a href="https://stackshare.io " target="_blank">See reviews of popular open source and  tools </a>
 
 
-### Reviews and ranking popular open source tools
--   https://stackshare.io/
--   https://www.slant.co/
+<a href="https://security.stackexchange.com " target="_blank">Question and answer site for security professionals.</a>
+
+<a href="https://www.itgovernance.co.uk/what-is-cybersecurity " target="_blank">
 
 
+</a>
+<a href="https://www.metasploit.com " target="_blank">
 
-### Linx/Open source Phones
--   https://www.pine64.org/pinephone
--   https://puri.sm/products/librem-5
+</a>
+<a href="https://www.owasp.org " target="_blank">
 
-<pre>
-</pre>
+</a>
+<a href="https://www.pine64.org/pinephone" target="_blank">
+
+
+</a>
+<a href="https://puri.sm/products/librem-5" target="_blank">

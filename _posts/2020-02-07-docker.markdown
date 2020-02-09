@@ -4,8 +4,7 @@ title:  "Install Docker!"
 date:   2020-02-07 01:23:10 +0000
 categories: micrometreuk-articles
 ---
-### Install Docker CE and Docker Compose
-Debian and Ubuntu based Linux distributions
+### Install Docker CE and Docker Compose Debian and Ubuntu based Linux distributions
 
 
 - Uninstall older versions of Docker, docker.io, or docker-engine.
