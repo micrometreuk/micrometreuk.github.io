@@ -30,4 +30,3 @@ make unmake
 You should see somthing displayed similar to the below:
 
 ![Alt Text](/assets/images/demo.gif)
-
