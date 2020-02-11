@@ -1,6 +1,7 @@
 ---
 layout: post
 title:  "Online Resources"
+featured_img: /img/posts/your-post-title/featured.png
 date:   2020-02-07 01:23:10 +0000
 categories: micrometreuk-articles
 ---
