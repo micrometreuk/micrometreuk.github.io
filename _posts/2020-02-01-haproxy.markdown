@@ -3,9 +3,6 @@ layout: post
 title:  "Load balancing with lxc containers"
 date:   2020-02-07 01:23:10 +0000
 categories: micrometreuk-articles
-image:
-  feature: 1-image.jpg #keep it square 200x200 px is good
-  thumb: 1-image.jpg #keep it square 200x200 px is good
 ---
 This configuration of software demonstrates the Round Robin principle of a load balancer
 
@@ -33,5 +30,4 @@ make unmake
 You should see somthing displayed similar to the below:
 
 ![Alt Text](/assets/images/demo.gif)
-![Alt Text](/assets/images/image1.jpg)
 
