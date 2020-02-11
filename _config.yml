@@ -12,6 +12,7 @@ plugins:
 
 
 header_pages:
+  - testi.md
   - hosting.md
   - services.md
   - contact.md

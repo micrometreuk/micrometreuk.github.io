@@ -1,7 +1,0 @@
-[
-  {
-    "id": "redeploy-webhook",
-    "execute-command": "redeploy.sh",
-    "command-working-directory": "/home/ubuntu/repo/micrometre-Jekyll.co.uk "
-  }
-]
