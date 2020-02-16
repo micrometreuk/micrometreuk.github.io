@@ -13,7 +13,6 @@ cp files/ssh_config ~/.ssh/config
 ```bash
 git remote add droplet warsong@dev-droplet:hooks/micrometreuk.git
 ```
-
 - Make your commits and push  
 
 ```bash
