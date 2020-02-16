@@ -1,8 +1,6 @@
 #!/bin/bash -l
 GIT_REPO=$HOME/hooks/micrometreuk.git
-PUBLIC_WWW=$HOME/public
-
+PUBLIC_WWW=$HOME/public/micrometre.co.uk
 git clone $GIT_REPO $PUBLIC_WWW
 rm -Rf $PUBLIC_WWW
 exit
-
