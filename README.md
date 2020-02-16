@@ -17,7 +17,7 @@
 ```bash
 git clone git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
 ```
-2  Updating ssh confing add the 
+2  Add ssh confing to users home ~/ssh
 
 ```bash
 cd micrometre-Jekyll.co.uk
