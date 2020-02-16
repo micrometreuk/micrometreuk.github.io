@@ -25,3 +25,5 @@ git push -u droplet
 
 > note this is a tracking repo no worktree in here 
 
+
+### After pushing to droplet
