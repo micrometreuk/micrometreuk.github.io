@@ -17,8 +17,6 @@ permalink: /hosting/
 
 - Take Control and security of your data collaborate on files securely. 
 
-
-
 #### Service  with  support package.
 
 Next cloud  | Wordpress 
