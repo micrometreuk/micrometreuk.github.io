@@ -1,2 +1,2 @@
 #!/bin/sh
-git --work-tree=/var/www/domain.com --git-dir=/var/repo/site.git checkout -f
+git --work-tree=/home/warsong/public/micrometreuk --git-dir=/home/warsong/hooks/micrometreuk.git checkout -f
