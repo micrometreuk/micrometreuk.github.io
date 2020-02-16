@@ -2,9 +2,20 @@
 ### deploy to digital ocean vi below
 
 ### after copying the ssh keys and updating ssh confing add the 
+
 ```bash
-git remote add droplet ssh://injera@injerareview/home/injera/hooks/micrometreuk.git (fetch)
+cd micrometre-Jekyll.co.uk
+
+cp files/ssh_config ~/.ssh/config 
+
+'''
+
+### Add the deployment hook repo
+
+```bash
+git remote add droplet ssh://dev-droplet/home/warsong/hooks/micrometreuk.git
 ```
+
 make your commits and push  
 ```bash
 git add .
