@@ -49,7 +49,7 @@ git push -u origin master
 
 -  Working without gitea 
 
-> -  Note this is a tracking repo no worktree in here and its the production live/repo 
+>  Note this is production live/repo 
 
 -  Clone the repository
 
