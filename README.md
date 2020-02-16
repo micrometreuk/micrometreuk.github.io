@@ -60,7 +60,7 @@ git clone  warsong@dev-droplet:hooks/micrometreuk.git
 - Push to droplet to deploy
 ```bash
 git add .
-git commit -m "pushing to gitea"
+git commit -m "pushing to deploy digital ocean"
 git push -u origin master	
 ```
 
