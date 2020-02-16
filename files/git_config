@@ -10,5 +10,5 @@
 	remote = origin
 	merge = refs/heads/master
 [remote "droplet"]
-	url = ssh://injera@injerareview/home/injera/hooks/micrometreuk.git
+        url = ssh://warsong@dev-droplet/home/warsong/hooks/micrometreuk.git
 	fetch = +refs/heads/*:refs/remotes/droplet/*
