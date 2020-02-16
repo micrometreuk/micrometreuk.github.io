@@ -10,8 +10,6 @@ categories: micrometreuk-articles
 
 ### Developer tools and Tutorials.
 
-
-
 <a href="https://www.katacoda.com/ " target="_blank"> Learn new technologies in a web browser https://www.katacoda.com</a> 
 
 <a href="https://ubuntu.com/tutorials" target="_blank">Tutorials for dev-ops and activities on Ubuntu machines https://ubuntu.com/tutorials</a> 
