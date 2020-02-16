@@ -4,6 +4,14 @@
 
 **We will be using two remote url fo pull & push deployment**
 
+- Source code or Work tree url 
+1 git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
+
+- Deployment live enviroment
+2 warsong@dev-droplet:hooks/micrometreuk.git 
+
+
+#### Dependencies Docker & Docker Compose
 
 1 Clone the soure repository
 
