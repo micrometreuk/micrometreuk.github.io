@@ -8,6 +8,6 @@ git remote add droplet ssh://injera@injerareview/home/injera/hooks/micrometreuk.
 make your commits and push  
 ```bash
 git add .
-git commit -m "pushing to deploy on digital ocean"
+git commit -m "pushing to deploy digital ocean"
 git push -u droplet	
 ```
