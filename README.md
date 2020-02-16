@@ -1,5 +1,5 @@
 ### How To Deploy a Jekyll Site Using Git Hooks on Ubuntu 18.04
-### deploy to digital ocean vi belo
+### deploy to digital ocean vi below
 
 ### after copying the ssh keys and updating ssh confing add the 
 ```bash
