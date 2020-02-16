@@ -1,6 +1,6 @@
-### Deploy a Jekyll Site Using Git Hooks and Docker
+### Deploy a Jekyll Site Using Git Hooks and Docker to digitalocean
 
-#### Deploy to digitalocean
+#### Dependencies Docker & Docker Compose
 
 **We will be using two remote url fo pull & push deployment**
 
@@ -11,14 +11,13 @@
 2 warsong@dev-droplet:hooks/micrometreuk.git 
 
 
-#### Dependencies Docker & Docker Compose
 
 1 Clone the soure repository
 
 ```bash
 git clone git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
 ```
-2 Copy the ssh keys and updating ssh confing add the 
+2  Updating ssh confing add the 
 
 ```bash
 cd micrometre-Jekyll.co.uk
