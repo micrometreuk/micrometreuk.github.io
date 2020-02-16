@@ -51,13 +51,13 @@ git push -u origin master
 
 > -  Note this is a tracking repo no worktree in here and its the production live/repo 
 
--  clone the repo and push to droplet master
+-  Clone the repository
 
 ```bash
 git clone  warsong@dev-droplet:hooks/micrometreuk.git 
 
 ```
-- Push to droplet to deploy
+- Make your changes and push to droplet to deploy
 ```bash
 git add .
 git commit -m "pushing to deploy digital ocean"
