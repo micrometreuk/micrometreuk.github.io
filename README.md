@@ -1,5 +1,6 @@
-### How To Deploy a Jekyll Site Using Git Hooks on Ubuntu 18.04
-### deploy to digital ocean using this work flow
+### Deploy a Jekyll Site Using Git Hooks and Docker
+
+#### Deploy to digitalocean
 
 **We will be using two remote url fo pull & push deployment**
 
