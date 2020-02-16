@@ -33,7 +33,5 @@ categories: micrometreuk-articles
 <a href="https://www.pine64.org/pinephone" target="_blank">An Open Source Smart Phone Supported by All Major Linux Phone Projects</a>
 
 
-
-
 <a href="https://puri.sm/products/librem-5" target="_blank">Open-source operating system that is not based on Android or iOS</a>
 
