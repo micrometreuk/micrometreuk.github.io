@@ -21,3 +21,7 @@ git add .
 git commit -m "pushing to deploy digital ocean"
 git push -u droplet	
 ```
+
+### the easy/lazy option 
+> note this is a tracking repo no worktree in here 
+
