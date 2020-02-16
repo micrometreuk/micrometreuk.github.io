@@ -1,2 +1,4 @@
-Host *
-    StrictHostKeyChecking no
+Host 139.59.189.131
+Port 2244
+     StrictHostKeyChecking no
+
