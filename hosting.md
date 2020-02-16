@@ -8,7 +8,7 @@ permalink: /hosting/
 
 ###  Messaging platforms Slack alternatives
 
-- Replace email, HipChat & Slack with  team chat software solution.
+- Replace Email & Slack with  team chat software solution.
 
 
 ### File sharing and cloud storage from centralized location.   
