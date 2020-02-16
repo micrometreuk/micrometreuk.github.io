@@ -5,4 +5,3 @@ rm -rf .jekyll-cache
 docker-compose stop
 docker-compose start
 exit
-warso
