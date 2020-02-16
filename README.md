@@ -23,15 +23,10 @@ git push -u droplet
 ### the easy/lazy option 
 
 > note this is a tracking repo no worktree in here 
-
 ### After pushing to droplet the script below will be excuted
 
 ```bash
 #!/bin/sh
 git --work-tree=/var/www/domain.com --git-dir=/var/repo/site.git checkout -f
 ``
-
-
-
-
 
