@@ -3,8 +3,6 @@
 
 **We will be using two remote url fo pull & push deployment**
 
-droplet	warsong@dev-droplet:hooks/micrometreuk.git (fetch)
-origin	git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (fetch)
 
 1 Clone the soure repository
 
@@ -39,9 +37,9 @@ git push -u origin master
 ```
 
 
-### The easy/lazy option 
+### The easy option 
 
--  If not bother with working gitea clone the repo and push to droplet master
+-  If not  working gitea clone the repo and push to droplet master
 > note this is a tracking repo no worktree in here and its the production live/repo 
 
 ```bash
