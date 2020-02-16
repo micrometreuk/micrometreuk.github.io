@@ -1,5 +1,13 @@
 ### How To Deploy a Jekyll Site Using Git Hooks on Ubuntu 18.04
 ### deploy to digital ocean vi belo
- git remote add droplet ssh://injera@139.59.189.131:2244/home/injera/hooks/micrometreuk.git
+
+### after copying the ssh keys and updating ssh confing add the 
+```bash
+git remote add droplet ssh://injera@injerareview/home/injera/hooks/micrometreuk.git (fetch)
+```
 make your commits and push  
-ssh://injera@139.59.189.131:2244/home/injera/hooks/micrometreuk.git 
+```bash
+git add .
+git commit -m "pushing to deploy on digital ocean"
+git push -u droplet	
+```

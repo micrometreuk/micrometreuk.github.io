@@ -1,4 +1,5 @@
-Host 139.59.189.131
-Port 2244
-     StrictHostKeyChecking no
-
+Host *
+    StrictHostKeyChecking no
+Host injerareview
+    Hostname 139.59.189.131
+    Port 2244
