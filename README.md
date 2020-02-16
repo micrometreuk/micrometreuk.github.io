@@ -47,8 +47,10 @@ git push -u origin master
 
 ### The easy option 
 
--  If not  working gitea clone the repo and push to droplet master
-> note this is a tracking repo no worktree in here and its the production live/repo 
+-  Working without gitea 
+
+> clone the repo and push to droplet master
+  note this is a tracking repo no worktree in here and its the production live/repo 
 
 ```bash
 git clone  warsong@dev-droplet:hooks/micrometreuk.git 
