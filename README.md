@@ -7,7 +7,6 @@
 cd micrometre-Jekyll.co.uk
 
 cp files/ssh_config ~/.ssh/config 
-
 '''
 
 ### Add the deployment hook repo
