@@ -1,7 +1,10 @@
 #!/bin/sh
-git --work-tree=/home/warsong/public/micrometreuk --git-dir=/home/warsong/hooks/micrometreuk.git checkout -f
+echo "Deploying master branch to production..."
+git --work-tree=/home/injera/public/micrometreuk --git-dir=/home/injera/hooks/micrometreuk.git checkout -f
 cd ~/public/micrometreuk
-rm -rf .jekyll-cache
 docker-compose stop
+docker-compose up -d
 docker-compose start
+echo "Successfully deployed master branch ."
+
 exit
