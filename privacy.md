@@ -5,7 +5,7 @@ title: Privacy
 
 ### Privacy Policy
 
-Effective date: February 07, 2020
+Effective date: February 09, 2020
 
 This page informs you of our policies regarding the collection, use, and disclosure of personal data.
 
