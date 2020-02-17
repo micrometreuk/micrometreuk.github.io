@@ -1,0 +1,9 @@
+#!/bin/sh
+while read oldrev newrev ref
+do
+	git --work-tree=/home/warsong/public/micrometreuk --git-dir=/home/warsong/hooks/micrometreuk.git checkout -f
+	cd ~/public/micrometreuk
+	docker-compose stop
+	docker-compose start
+done
+exit
