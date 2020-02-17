@@ -1,9 +1,12 @@
 #!/bin/sh
 while read oldrev newrev ref
 do
+	echo "Droplet ref received.  Deploying master branch to production..."
 	git --work-tree=/home/warsong/public/micrometreuk --git-dir=/home/warsong/hooks/micrometreuk.git checkout -f
 	cd ~/public/micrometreuk
 	docker-compose stop
 	docker-compose start
+        echo "Successfully received.  master branch may be deployed ."
+
 done
 exit
