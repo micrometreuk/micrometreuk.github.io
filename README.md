@@ -4,11 +4,14 @@
 
 **We will be using two remote url fo pull & push deployment**
 
-- Source code or Work tree url 
-1 git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
+- Source code or Work tree from gitea url 
+    - git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
 
-- Deployment live enviroment
-2 warsong@dev-droplet:hooks/micrometreuk.git 
+- Where Deployment enviroment/droplet is
+    - warsong@dev-droplet:hooks/micrometreuk.git 
+
+
+
 
 
 
@@ -17,7 +20,21 @@
 ```bash
 git clone git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
 ```
-2  Add ssh confing to users home ~/ssh
+2  Add ssh confing to users home ~/ssh this is neede due to the droplet ssh configration.
+
+
+```bash
+
+
+Host *
+    StrictHostKeyChecking no # stop gitea complaning about known_host 
+Host dev-droplet 
+    Hostname 167.172.60.193
+    Port 2244 
+Host injera-droplet
+    Hostname 139.59.189.131
+    Port 2244
+```
 
 ```bash
 cd micrometre-Jekyll.co.uk
@@ -63,14 +80,3 @@ git add .
 git commit -m "pushing to deploy digital ocean"
 git push -u origin master	
 ```
-
-
-
-
-
-
-
-
-
-
-
