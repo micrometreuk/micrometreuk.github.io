@@ -54,7 +54,6 @@ git commit -m "pushing to gitea"
 git push -u origin master	
 ```
 
-
 ### The easy option 
 
 -  Working without gitea 
