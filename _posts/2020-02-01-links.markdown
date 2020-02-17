@@ -10,8 +10,6 @@ categories: micrometreuk-articles
 
 ### Developer tools and Tutorials.
 
-
-
 <a href="https://www.katacoda.com/ " target="_blank"> Learn new technologies in a web browser https://www.katacoda.com</a> 
 
 <a href="https://ubuntu.com/tutorials" target="_blank">Tutorials for dev-ops and activities on Ubuntu machines https://ubuntu.com/tutorials</a> 
@@ -33,6 +31,7 @@ categories: micrometreuk-articles
 <a href="https://www.owasp.org " target="_blank"> The Open Web Application Security Project (OWASP)</a>
 
 <a href="https://www.pine64.org/pinephone" target="_blank">An Open Source Smart Phone Supported by All Major Linux Phone Projects</a>
+
 
 <a href="https://puri.sm/products/librem-5" target="_blank">Open-source operating system that is not based on Android or iOS</a>
 

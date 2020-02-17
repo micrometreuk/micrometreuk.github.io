@@ -26,8 +26,6 @@ sudo apt-get install -y nodejs
 
 
 
-
-
 #### Download installation script from the Repository on  GitHub.
 
 ```bash

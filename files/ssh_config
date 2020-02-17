@@ -3,3 +3,6 @@ Host *
 Host dev-droplet
     Hostname 167.172.60.193
     Port 2244
+Host injera-droplet
+    Hostname 139.59.189.131
+    Port 2244
