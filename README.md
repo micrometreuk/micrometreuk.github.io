@@ -59,7 +59,7 @@ git push -u origin master
 
 -  Working without gitea 
 
->  Note this is production live/repo 
+>  Note this is the live enviroment.
 
 -  Clone the repository
 
