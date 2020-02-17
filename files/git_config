@@ -7,8 +7,6 @@
 	url = git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git
 	fetch = +refs/heads/*:refs/remotes/origin/*
 [branch "master"]
-	remote = droplet
-	merge = refs/heads/master
 [remote "droplet"]
-	url = warsong@dev-droplet:hooks/micrometreuk.git
+	url = injera@injera-droplet:hooks/micrometreuk.git
 	fetch = +refs/heads/*:refs/remotes/droplet/*
