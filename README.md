@@ -10,7 +10,6 @@
 ##### Where Deployment enviroment/droplet is
 - injera@dinjera-droplet:hooks/micrometreuk.git 
 
-
 1 Clone the soure repository
 ```bash
 git clone git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
