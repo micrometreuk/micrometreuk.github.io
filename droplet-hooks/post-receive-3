@@ -1,6 +1,6 @@
 #!/bin/sh
 echo "Deploying master branch to production..."
-git --work-tree=/home/warsong/public/micrometreuk --git-dir=/home/warsong/hooks/micrometreuk.git checkout -f
+git --work-tree=/home/injera/public/micrometreuk --git-dir=/home/injera/hooks/micrometreuk.git checkout -f
 cd ~/public/micrometreuk
 docker-compose stop
 docker-compose start
