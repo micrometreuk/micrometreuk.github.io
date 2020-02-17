@@ -4,11 +4,11 @@
 
 **We will be using two remote url fo pull & push deployment**
 
-- Source code or Work tree from gitea url 
-    - git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
+##### Source code or Work tree from gitea url 
+- git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
 
-- Where Deployment enviroment/droplet is
-    - warsong@dev-droplet:hooks/micrometreuk.git 
+##### Where Deployment enviroment/droplet is
+- warsong@dev-droplet:hooks/micrometreuk.git 
 
 
 
