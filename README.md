@@ -8,7 +8,7 @@
 - git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
 
 ##### Where Deployment enviroment/droplet is
-- warsong@dev-droplet:hooks/micrometreuk.git 
+- injera@dinjera-droplet:hooks/micrometreuk.git 
 
 
 1 Clone the soure repository
@@ -21,9 +21,6 @@ git clone git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git
 # Content of the ssh_config file
 Host *
     StrictHostKeyChecking no # stop gitea complaning about known_host 
-Host dev-droplet # alias
-    Hostname 167.172.60.193 # dropelt ip
-    Port 2244 ssh port
 Host injera-droplet # alias
     Hostname 139.59.189.131 # ip
     Port 2244 # ssh port
@@ -37,7 +34,7 @@ cp files/ssh_config ~/.ssh/config
 3 Add the deployment hook repo
 
 ```bash
-git remote add droplet warsong@dev-droplet:hooks/micrometreuk.git
+git remote add droplet injera@droplet-droplet:hooks/micrometreuk.git
 ```
 4 Now we can push to either remote urls 
 
@@ -63,7 +60,7 @@ git push -u origin master
 -  Clone the repository
 
 ```bash
-git clone  warsong@dev-droplet:hooks/micrometreuk.git 
+git clone  injera@dinjera-droplet:hooks/micrometreuk.git 
 
 ```
 - Make your changes and push to droplet to deploy
