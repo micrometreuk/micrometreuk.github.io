@@ -1,7 +1,6 @@
 ### Deploy a Jekyll Site Using Git Hooks and Docker to digitalocean
 
 #### Dependencies Docker & Docker Compose
-
 **We will be using two remote url fo pull & push deployment**
 
 ##### Source the code or Work tree is (gitea) 
