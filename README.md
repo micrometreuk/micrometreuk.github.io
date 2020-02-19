@@ -149,24 +149,6 @@ docker-compose up -d                                # runs/re-starts the contain
 ```
 *The public directory isn't a repository, Only the code for deployment*.
 
-
-
-###  Working without Gitea 
-
-*When pushing back to this master, the deploymet will take effect*.
-
--  Clone the repository
-
-```bash
-git clone  injera@injera-droplet:hooks/micrometreuk.git 
-
-```
-Make your changes and push to droplet to deploy
-```bash
-git add .
-git commit -m "pushing to deploy digital ocean"
-git push -u origin master	
-```
 Use Makefile for tab compltion(short-cut).
 
 ```bash
