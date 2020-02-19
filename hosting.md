@@ -6,22 +6,14 @@ permalink: /hosting/
 
 
 
-###  Messaging platforms Slack alternatives
-
-- Replace Email & Slack with  team chat software solution.
-
-### File sharing and cloud storage from centralized location.   
-- Avoid the risks associated with on-premises server. 
-
-- Take Control and security of your data collaborate on files securely. 
-
-#### Service  with  support package.
-
-Next cloud  | Wordpress 
-
-Rocket.chat | Mattermost
+###  Platforms
 
 
+|Content Management Systems|Instant Messaging platforms|File sharing & cloud storage|Websites and Blogs|
+|:------------------------:|:-------------------------:|:--------------------------:|:----------------:|
+|Wordpress|Rocket.chat|Next cloud|jekyll| 
 
 
+Replace emails with Instant messaging platforms(Team chat software).
 
+Collaborate on files securely. 

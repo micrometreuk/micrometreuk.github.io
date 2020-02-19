@@ -1,27 +1,33 @@
-delete_cache:
-	rm -rf .jekyll-cache
-install:
+bundle_install:
 	gem install jekyll bundler
 	bundle install
-serve: 	
+bundle_serve: 	
 	bundle exec jekyll serve --host=0.0.0.0
-watch:
+bundle_watch:
 	bundle exec jekyll serve --host=0.0.0.0 --watch --force_polling --verbose
-start:	
+docker_up:	
 	rm -rf .jekyll-cache
 	docker-compose up -d
-upgrade:
+docker_upgrade:
 	rm -rf .jekyll-cache
 	docker-compose stop
 	docker-compose rm -f
 	docker-compose pull
 	docker-compose up -d --build
-docker-start:
+docker_start:
 	docker-compose start
-docker-stop:
+docker_stop:
 	docker-compose stop
-build-repo:	
+docker_restart:	
 	git pull
 	docker-compose stop
 	docker-compose start
 
+push_to_gitea:
+	git add .
+	git commit -m "Pushing to Gitea"
+	git push -u origin master
+push_to_droplet:
+	git add .
+	git commit -m "Pushing to Droplet for deployment"
+	git push -u droplet master
