@@ -179,9 +179,3 @@ make  push_to_gitea
 7. [ ] Update https://gitea.micrometre.uk/infrastructure/framework
 8. [ ] Update https://gitea.micrometre.uk/infrastructure/wordpress-dev
 
-
-
-
-
-
-
