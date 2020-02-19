@@ -2,12 +2,14 @@
 layout: post
 title: To Do List
 ---
-o### Solar System Exploration, 1950s – 1960s
+### complete the project
 
-- [ ] Mercury
-- [x] Venus
-- [x] Earth (Orbit/Moon)
-- [x] Mars
-- [ ] Jupiter
-- [ ] Saturn
-- [ ] Uranus
+1. [ ] github pages pipeline
+2. [ ] Hosting Prices
+3. [ ] Update https://github.com/micrometreuk/DevOps
+4. [ ] Update https://github.com/micrometre/dotfiles    <<<<<>>>>>       https://gitea.micrometre.uk/infrastructure/configs    
+5. [ ] Update https://github.com/micrometreuk/ansible
+6. [ ] Update https://gitea.micrometre.uk/infrastructure/logs
+7. [ ] Update https://gitea.micrometre.uk/infrastructure/framework
+8. [ ] Update https://gitea.micrometre.uk/infrastructure/wordpress-dev
+
