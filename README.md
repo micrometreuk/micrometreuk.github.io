@@ -32,9 +32,9 @@ Copy ssh confing to users home ~/.ssh
 ```bash
 cp files/ssh_config ~/.ssh/config 
 ```
-The continents of the file the ssh_congig On line 2 shows StrictHostKeyChecking no, 
+The continents of the file the ssh_congig On line 2 shows StrictHostKeyChecking no. 
 
-this will disable strict host key checking for the hosts.
+This will disable strict host key checking for the hosts, we need this for the git hook to work.
 
 ```bash
 Host dev-droplet
