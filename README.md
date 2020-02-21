@@ -32,9 +32,9 @@ Copy ssh confing to users home ~/.ssh
 ```bash
 cp files/ssh_config ~/.ssh/config 
 ```
-Lets look at The containtes of the file contains the ssh_congig fiele.
+The continents of the file the ssh_congigvOn line 2 shows StrictHostKeyChecking no, 
 
-On line 2 where it says StrictHostKeyChecking no, this will disable strict host key checking for the hosts.
+this will disable strict host key checking for the hosts.
 
 ```bash
 Host dev-droplet
