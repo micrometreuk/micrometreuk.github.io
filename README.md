@@ -2,15 +2,10 @@
 
 #### Dependencies 
 
-1. Docker and Docker Compose
-2. SSH Client configed for SSH key-based authentication
+1. Docker and Docker Compose, to Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions.
+Follow the post from https://micrometre.co.uk/2020/02/06/docker.html
 
-
-To Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions follow the post from.
-- https://micrometre.co.uk/2020/02/06/docker.html
-
-To Configure SSH Client for  key-based authentication use  follow post from.
-- https://micrometre.co.uk/2020/02/17/ssh.html
+2. SSH Client configed for SSH key-based authentication, To Configure SSH Client for  key-based authentication use  follow post from. https://micrometre.co.uk/2020/02/17/ssh.html
 
 For working examples using Github pages and localhost, check the links below. 
 - https://micrometreuk.github.io    
@@ -18,37 +13,50 @@ For working examples using Github pages and localhost, check the links below.
 - https://micrometre.co.uk/2020/02/18/jekyll-docker.html
 
 
+**Due to Gitea using port 22 by default, we need configure ssh setings for the user's home**
 
-#### Project Workflow
+Start with copying the ssh config loacted in the repository /file/config to user' home.
 
+Clone the soure repository. 
 
-
-|                    Pull & make changes                               |                    Push deployment                         |   
-|:--------------------------------------------------------------------:|:----------------------------------------------------------:|
-|                  Source code repository                              |                 Deployment repository                      |   
-|git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git    |        injera@injera-droplet:hooks/micrometreuk.git        |          
-|https://gitea.micrometre.uk/infrastructure/micrometre-Jekyll.co.uk    |        https://micrometre.co.uk
-
-
-
-1 Clone the soure repository
 ```bash
 git clone git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
 ```
-*Due to Gitea using port 22. configure ssh setings first*
-
-- Changing to the cloned repository.
+Changing to the cloned repository.
 
 ```bash
 cd micrometre-Jekyll.co.uk
 ```
-- Copy ssh confing to users home ~/.ssh 
+Copy ssh confing to users home ~/.ssh 
 
 ```bash
 cp files/ssh_config ~/.ssh/config 
 ```
+Lets look at The containtes of the file contains the ssh_congig fiele.
 
-3 Add the deployment hook repo remote url
+On line 2 where it says StrictHostKeyChecking no, this will disable strict host key checking for the hosts.
+
+```bash
+Host dev-droplet
+    StrictHostKeyChecking no
+    Hostname 167.172.60.193
+    Port 2244
+    User warsong
+Host injera-droplet
+    StrictHostKeyChecking no
+    Hostname 139.59.189.131
+    User injera
+    Port 2244
+```
+
+#### Project Workflow
+|Job-no|Location |API End-points and Reositories|
+|:-:|:---:|:----------------------------------------------------------------:|
+|1|Gitea|https://gitea.micrometre.uk/infrastructure/micrometre-Jekyll.co.uk|
+|2|Droplet|injera@injera-droplet:hooks/micrometreuk.git|    
+
+
+Add the deployment hook repo remote url
 ```bash
 git remote add droplet injera@injera-droplet:hooks/micrometreuk.git
 ```
@@ -60,10 +68,10 @@ git remote -v
 > Should out put
 
 ```bash
-droplet	injera@injera-droplet:hooks/micrometreuk.git (fetch)
-droplet	injera@injera-droplet:hooks/micrometreuk.git (push)
-origin	git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (fetch)
-origin	git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (push)
+droplet	    injera@injera-droplet:hooks/micrometreuk.git (fetch)
+droplet	    injera@injera-droplet:hooks/micrometreuk.git (push)
+origin	     git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (fetch)
+origin	     git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (push)
 ```
 Confirm access ie read/write permision to the deployment repository(droplet master).
 
@@ -85,15 +93,17 @@ git remote show droplet
     master pushes to master (up-to-date)
 ```
 
-4 Now we can push and pull from either remote urls 
+Now we can push and pull from either remote urls 
 
-- Push to droplet to deploy
+Push to droplet to deploy
+
 ```bash
 git add .
 git commit -m "pushing to deploy digital ocean"
 git push -u droplet master	
 ```
-- Push to gitea
+Push to gitea
+
 ```bash
 git add .
 git commit -m "pushing to gitea"
@@ -101,9 +111,9 @@ git push -u origin master
 ```
 
 
-## Server/droplet side 
+## Server/droplet side this is configured and ready. only for refrence
 
-- Creat dirctories from home ie ~/ 
+Creat dirctories from home ie ~/ 
 
 ```bash
 mkdir hooks                         # Hooks directory for all infrastructure droplets.
@@ -113,7 +123,7 @@ mkdir puclic                        # Public directory for all infrastructure.
 mkdir puclic/micrometreuk           # https://micrometre.co.uk/ location.
 ```
 
-- Confirm the worktree
+Confirm the worktree
 
 ```bash
 ls ~/
@@ -123,18 +133,27 @@ ls ~/
 hooks/micrometreuk.git/   public/micrometreuk/  repos/  
 ```
 
-- Change to micrometreuk hooks direcory
+Change to micrometreuk hooks direcory
 
 ```bash
 cd ~/hooks/micrometre.git
 ```
-- Create a new “bare repository” to track the deployment .
+
+Create a new “bare repository” to track the deployment .
 
 ```bash
 git init --bare
 ```
 
 ##### The post-receive hook to start producrion 
+
+Copy the post-receive file to the hooks directory.
+
+```bash
+cp files/post-receive hooks/post-receive
+
+```
+Description 
 
 - Forces the transaction. 
 - Ignores conflicts in the working directory. 
@@ -172,7 +191,6 @@ make  push_to_gitea
 
 1. [ ] github pages pipeline
 2. [ ] Hosting Prices
-3. [ ] Update https://github.com/micrometreuk/DevOps
 4. [ ] Update https://github.com/micrometre/dotfiles    <<<<<>>>>>       https://gitea.micrometre.uk/infrastructure/configs    
 5. [ ] Update https://github.com/micrometreuk/ansible
 6. [ ] Update https://gitea.micrometre.uk/infrastructure/logs
