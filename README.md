@@ -116,7 +116,7 @@ make  push_to_gitea
 ```
 
 
-## Server/droplet side this is configured and ready. only for refrence
+## Server/droplet side this is configured and ready. only for reference
 
 Creat dirctories from home ie ~/ 
 
