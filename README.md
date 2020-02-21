@@ -50,7 +50,7 @@ Host injera-droplet
 ```
 
 #### Project Workflow
-|Job-no|Location |API End-points and Reositories|
+|Job-no|Location |API End-points and Repositories|
 |:-:|:---:|:----------------------------------------------------------------:|
 |1|Gitea|https://gitea.micrometre.uk/infrastructure/micrometre-Jekyll.co.uk|
 |2|Droplet|injera@injera-droplet:hooks/micrometreuk.git|    
@@ -97,17 +97,24 @@ Now we can push and pull from either remote urls
 
 Push to droplet to deploy
 
-```bash
-git add .
-git commit -m "pushing to deploy digital ocean"
-git push -u droplet master	
-```
 Push to gitea
 
+Use Makefile for tab compltion(short-cut).
+
 ```bash
-git add .
-git commit -m "pushing to gitea"
-git push -u origin master	
+push_to_gitea:
+	git add .
+	git commit -m "Pushing to Gitea"
+	git push -u origin master
+push_to_droplet:
+	git add .
+	git commit -m "Pushing to Droplet for deployment"
+	git push -u droplet master
+```
+* To push to Gitea with Makefile.
+
+```bash
+make  push_to_gitea
 ```
 
 
