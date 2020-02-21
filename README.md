@@ -57,10 +57,19 @@ Host injera-droplet
 
 
 Add the deployment hook repo remote url
+
+1. Use git remote add command the droplet hook repository.
+
 ```bash
 git remote add droplet injera@injera-droplet:hooks/micrometreuk.git
 ```
-- Verify/Show git-remote url 
+
+2. It's same as copying the  .gitconfig file from from the repository /file foleder ~/users home .
+
+```bash
+cp file/.gitconfig
+```
+Afte completing one of the above Verify/Show git-remote url is added.
 
 ```bash
 git remote -v
@@ -73,7 +82,7 @@ droplet	    injera@injera-droplet:hooks/micrometreuk.git (push)
 origin	    git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (fetch)
 origin	    git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (push)
 ```
-Confirm access ie read/write permision to the deployment repository(droplet master).
+Now we Confirm permision to the deployment repository(droplet master).
 
 ```bash
 git remote show droplet 
@@ -95,8 +104,6 @@ git remote show droplet
 
 Now we can push and pull from either remote urls 
 
-
-
 Use Makefile for tab compltion(short-cut).
 
 ```bash
@@ -114,7 +121,6 @@ push_to_droplet:
 ```bash
 make  push_to_gitea
 ```
-
 
 ## Server/droplet side this is configured and ready. only for reference
 
