@@ -50,11 +50,11 @@ Host dev-droplet
 ```
 
 #### Project Workflow
-|Job-no|Location |Repositories|API End-points| 
-|:----:|:-------:|:-------------------------:|
-|1|Gitea|https://gitea.micrometre.uk/infrastructure/micrometre-Jekyll.co.uk|https://micrometre.co.uk|
-|2|Droplet|injera@injera-droplet:hooks/micrometreuk.git| https://micrometre.co.uk|
-|3|Droplet|injera@injera-droplet:hooks/micrometreuk.git| https://micrometreuk.github.io|
+|Job-no|Location |Repositories| 
+|:----:|:-------:|:-----------|
+|1|Gitea|https://gitea.micrometre.uk/infrastructure/micrometre-Jekyll.co.uk|
+|2|Droplet|injera@injera-droplet:hooks/micrometreuk.git|
+|3|Droplet|injera@injera-droplet:hooks/micrometreuk.git|
    
 
 Add the deployment hook repo remote url
