@@ -95,20 +95,18 @@ git remote show droplet
 
 Now we can push and pull from either remote urls 
 
-Push to droplet to deploy
 
-Push to gitea
 
 Use Makefile for tab compltion(short-cut).
 
 ```bash
 push_to_gitea:
 	git add .
-	git commit -m "Pushing to Gitea"
+	git commit -m "Pushing to Gitea repository https://gitea.micrometre.uk/infrastructure/micrometre-Jekyll.co.uk"
 	git push -u origin master
 push_to_droplet:
 	git add .
-	git commit -m "Pushing to Droplet for deployment"
+	git commit -m "Pushing to Droplet for deployment https://micrometre.co.uk/"
 	git push -u droplet master
 ```
 * To push to Gitea with Makefile.
