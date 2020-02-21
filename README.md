@@ -70,8 +70,8 @@ git remote -v
 ```bash
 droplet	    injera@injera-droplet:hooks/micrometreuk.git (fetch)
 droplet	    injera@injera-droplet:hooks/micrometreuk.git (push)
-origin	     git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (fetch)
-origin	     git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (push)
+origin	    git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (fetch)
+origin	    git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (push)
 ```
 Confirm access ie read/write permision to the deployment repository(droplet master).
 
