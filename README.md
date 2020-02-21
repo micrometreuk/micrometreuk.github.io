@@ -15,7 +15,7 @@ For working examples using Github pages and localhost, check the links below.
 
 **Due to Gitea using port 22 by default, we need configure ssh setings for the user's home**
 
-Start with copying the ssh config loacted in the repository /file/config to user' home.
+Start with copying the ssh config loacted in the repository /file/config to user's home.
 
 Clone the soure repository. 
 
@@ -34,7 +34,7 @@ cp files/ssh_config ~/.ssh/config
 ```
 Line 2 on ssh config file shows no StrictHostKeyChecking, we need this for the git hook to work.
 
-This will disable strict host key checking for the hosts on the congig file.
+This will disable strict host key checking for the hosts on the config file.
 
 ```bash
 Host dev-droplet
