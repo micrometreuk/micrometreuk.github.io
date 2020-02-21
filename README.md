@@ -54,7 +54,6 @@ Host dev-droplet
 |:----:|:-------:|:-----------|
 |1|Gitea|https://gitea.micrometre.uk/infrastructure/micrometre-Jekyll.co.uk|
 |2|Droplet|injera@injera-droplet:hooks/micrometreuk.git|
-|3|Droplet|injera@injera-droplet:hooks/micrometreuk.git|
    
 
 Add the deployment hook repo remote url
