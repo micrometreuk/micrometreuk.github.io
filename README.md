@@ -13,7 +13,7 @@ For working examples using Github pages and localhost, check the links below.
 - https://micrometre.co.uk/2020/02/18/jekyll-docker.html
 
 
-**Due to Gitea using port 22 by default, we need configure ssh setings for the user's home**
+**Due to Gitea using port 22 by default, we need to configure ssh setings for the user's home**
 
 Start with copying the ssh config loacted in the repository /file/config to user's home.
 
@@ -22,7 +22,7 @@ Clone the soure repository.
 ```bash
 git clone git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git 
 ```
-Changing to the cloned repository.
+Change to the cloned repository.
 
 ```bash
 cd micrometre-Jekyll.co.uk
@@ -34,19 +34,19 @@ cp files/ssh_config ~/.ssh/config
 ```
 Line 2 on ssh config file shows no StrictHostKeyChecking, we need this for the git hook to work.
 
-This will disable strict host key checking for the hosts on the config file.
+This will disable strict host key checking for the hosts declared on the config file.
 
 ```bash
-Host dev-droplet
-    StrictHostKeyChecking no
-    Hostname 167.172.60.193
-    Port 2244
-    User warsong
 Host injera-droplet
     StrictHostKeyChecking no
     Hostname 139.59.189.131
     User injera
     Port 2244
+Host dev-droplet
+    StrictHostKeyChecking no
+    Hostname 167.172.60.193
+    Port 2244
+    User warsong
 ```
 
 #### Project Workflow
@@ -54,7 +54,6 @@ Host injera-droplet
 |:-:|:---:|:----------------------------------------------------------------:|
 |1|Gitea|https://gitea.micrometre.uk/infrastructure/micrometre-Jekyll.co.uk|
 |2|Droplet|injera@injera-droplet:hooks/micrometreuk.git|    
-
 
 Add the deployment hook repo remote url
 
