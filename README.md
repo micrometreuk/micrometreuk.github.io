@@ -64,13 +64,13 @@ Host dev-droplet
 
 Add the deployment hook repo remote url
 
-1. Use git remote to add command the droplet hook repository.
+- Use git remote to add command the droplet hook repository.
 
 ```bash
 git remote add droplet injera@injera-droplet:hooks/micrometreuk.git
 ```
 
-2. It's same as copying the  .gitconfig file from from the repository /file foleder ~/users home .
+- It's same as copying the  .gitconfig file from from the repository /file foleder ~/users home .
 
 ```bash
 cp file/.gitconfig
