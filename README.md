@@ -5,7 +5,7 @@
 |Source Stage|Deploy Digitalocean|Deploy Github Pages|
 |:----------:|:-----------------:|:-----------------:|
 |https://gitea.micrometre.uk|https://micrometre.co.uk|https://micrometreuk.github.io|
-|git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git|injera@injera-droplet:hooks/micrometreuk.git|https://github.com/micrometreuk/micrometreuk.github.io.git
+|git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git|injera@injera-droplet:hooks/micrometreuk.git|git@github.com:micrometreuk/micrometreuk.github.io.git|https://github.com/micrometreuk/micrometreuk.github.io.git
 
 
 #### Dependencies 
