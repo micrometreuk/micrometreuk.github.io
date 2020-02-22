@@ -1,5 +1,13 @@
 ### Deploy a Jekyll Site Using Git Hooks and Docker to Digitalocean
 
+#### Project Workflow
+                                                                                               
+|Source Stage|Deploy Digitalocean|Deploy Github Pages|
+|:----------:|:-----------------:|:-----------------:|
+|https://gitea.micrometre.uk|https://micrometre.co.uk|https://micrometreuk.github.io|
+|git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git|injera@injera-droplet:hooks/micrometreuk.git|https://github.com/micrometreuk/micrometreuk.github.io.git
+
+
 #### Dependencies 
 
 1. Docker and Docker Compose, to Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions.
@@ -49,10 +57,6 @@ Host dev-droplet
     User warsong
 ```
 
-#### Project Workflow
-     Source Stage                  Deploy Digitalocean           Deploy Github Pages
-git@gitea.micrometre.uk        https://micrometre.co.uk     https://micrometreuk.github.io
-   
 
 Add the deployment hook repo remote url
 
