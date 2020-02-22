@@ -7,7 +7,6 @@
 |https://gitea.micrometre.uk|https://micrometre.co.uk|https://micrometreuk.github.io|
 |git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git|injera@injera-droplet:hooks/micrometreuk.git|git@github.com:micrometreuk/micrometreuk.github.io.git|https://github.com/micrometreuk/micrometreuk.github.io.git
 
-
 #### Dependencies 
 
 1. Docker and Docker Compose, to Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions.
