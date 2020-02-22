@@ -21,8 +21,6 @@ For working examples using Github pages and localhost, check the links below.
 - https://github.com/micrometre/jekyll
 - https://micrometre.co.uk/2020/02/18/jekyll-docker.html
 
-
-
 #### Deploying and updating https://micrometre.co.uk 
 
 **Due to Gitea using port 22 by default, we need to configure ssh setings for the user's home**
@@ -61,17 +59,13 @@ Host dev-droplet
     User warsong
 ```
 
-
 Add the deployment hook repo remote url
 
-- Use git remote to add command the droplet hook repository.
+- Use git remote command to add  the droplet hook repository or copy the  .gitconfig file from from the repository /file foleder ~/users home .
 
 ```bash
 git remote add droplet injera@injera-droplet:hooks/micrometreuk.git
 ```
-
-- It's same as copying the  .gitconfig file from from the repository /file foleder ~/users home .
-
 ```bash
 cp file/.gitconfig
 ```
