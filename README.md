@@ -22,6 +22,9 @@ For working examples using Github pages and localhost, check the links below.
 - https://micrometre.co.uk/2020/02/18/jekyll-docker.html
 
 
+
+#### Deploying and updating https://micrometre.co.uk 
+
 **Due to Gitea using port 22 by default, we need to configure ssh setings for the user's home**
 
 Start with copying the ssh config loacted in the repository /file/config to user's home.
@@ -61,7 +64,7 @@ Host dev-droplet
 
 Add the deployment hook repo remote url
 
-1. Use git remote add command the droplet hook repository.
+1. Use git remote to add command the droplet hook repository.
 
 ```bash
 git remote add droplet injera@injera-droplet:hooks/micrometreuk.git
@@ -85,7 +88,7 @@ droplet	    injera@injera-droplet:hooks/micrometreuk.git (push)
 origin	    git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (fetch)
 origin	    git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git (push)
 ```
-Now we Confirm permision to the deployment repository(droplet master).
+Now we can Confirm permision to the deployment repository(droplet master).
 
 ```bash
 git remote show droplet 
@@ -124,6 +127,7 @@ push_to_droplet:
 ```bash
 make  push_to_gitea
 ```
+
 
 ## Server/droplet side this is configured and ready. only for reference
 
