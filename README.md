@@ -13,7 +13,6 @@ Clone the soure repository
 ```bash
 git clone git@github.com:micrometre/jekyll.git
 ```
-
 Changing to the cloned repository from github.
 
 ```bash
