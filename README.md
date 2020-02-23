@@ -60,11 +60,15 @@ Host dev-droplet
 
 Add the deployment hook repo remote url
 
-- Use git remote command to add  the droplet hook repository or copy the  .gitconfig file from from the repository /file foleder ~/users home .
+We can Add  the droplet hook to the repository with
+
+
+1. Use git add remote command 
 
 ```bash
 git remote add droplet injera@injera-droplet:hooks/micrometreuk.git
 ```
+2. Copying the  .gitconfig  file from from the repository /file foleder to the .git folder found in the project.
 ```bash
 cp file/.gitconfig
 ```
@@ -120,6 +124,84 @@ push_to_droplet:
 ```bash
 make  push_to_gitea
 ```
+
+
+
+
+#### Deploying and updating https://micrometre.co.uk 
+
+** The process to depoloy a branch to Gihub pages
+
+We need to Make sure no secrets are pushed to Github. 
+
+
+
+
+
+
+Github pages has similar steps with previous chapters.
+
+
+
+1. Start with adding the Github repository for https://micrometreuk.github.io
+```bash
+git remote add git@github.com:micrometreuk/micrometreuk.github.io.git
+```
+
+
+
+
+
+
+
+
+1. Create a new branch: we will all this one for_github
+
+```bash
+git checkout -b for_github
+```
+
+2. Add the Github repository, same above 
+
+
+
+Push a new local 
+
+branch to https://micrometreuk.github.io/ remote Git repository and track it too
+Guide
+
+camperbot
+3 
+Aug '19
+Create a new branch:
+git checkout -b feature_branch_name
+Edit, add and commit your files.
+Push your branch to the remote repository:
+git push -u origin feature_branch_name
+It’s as simple as that!
+
+What’s going on here? Git Branch explained in more detail
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 ## Server/droplet side this is configured and ready. only for reference
