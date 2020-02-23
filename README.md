@@ -52,4 +52,4 @@ Create posts, pages and drafts with jekyll-compose.
 
 ## To do list
 
-1. [ ] github pages pipeline
+1. [ ] 
