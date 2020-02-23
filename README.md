@@ -164,6 +164,9 @@ Don't dit add or git commit for now. We will need to push to the Github Pages ma
 
 
 
+```bash
+git push -u origin  from_gitea_to_github for_github:github_remote/master master 
+```
 
 
 
@@ -174,18 +177,7 @@ Don't dit add or git commit for now. We will need to push to the Github Pages ma
 
 
 
-Push a new local 
 
-branch to https://micrometreuk.github.io/ remote Git repository and track it too
-Guide
-
-camperbot
-3 
-Aug '19
-Create a new branch:
-git checkout -b feature_branch_name
-Edit, add and commit your files.
-Push your branch to the remote repository:
 git push -u origin feature_branch_name
 It’s as simple as that!
 
