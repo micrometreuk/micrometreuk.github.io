@@ -1,0 +1,12 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+[remote "origin"]
+	url = git@gitea.micrometre.uk:infrastructure/micrometre-Jekyll.co.uk.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[branch "master"]
+[remote "droplet"]
+	url = injera@injera-droplet:hooks/micrometreuk.git
+	fetch = +refs/heads/*:refs/remotes/droplet/*
