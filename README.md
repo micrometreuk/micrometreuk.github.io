@@ -169,42 +169,6 @@ git push -u origin  from_gitea_to_github for_github:github_remote/master master
 ```
 
 
-
-
-
-
-
-
-
-
-
-git push -u origin feature_branch_name
-It’s as simple as that!
-
-What’s going on here? Git Branch explained in more detail
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ## Server/droplet side this is configured and ready. only for reference
 
 Creat dirctories from home ie ~/ 
