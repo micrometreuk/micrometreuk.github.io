@@ -130,38 +130,47 @@ make  push_to_gitea
 
 #### Deploying and updating https://micrometre.co.uk 
 
-** The process to depoloy a branch to Gihub pages
 
-We need to Make sure no secrets are pushed to Github. 
+**We need to Make sure no secrets are pushed to Github.**
 
+1. From the project directory change to the for_github branch
 
-
-
-
-
-Github pages has similar steps with previous chapters.
-
-
-
-1. Start with adding the Github repository for https://micrometreuk.github.io
 ```bash
-git remote add git@github.com:micrometreuk/micrometreuk.github.io.git
+git checkout for_github
+```
+2. To confirm we are on the correct branch for Github.
+
+```bash
+git branch 
+
+#The branch you are on will be marcked with an asterisk in green.
+* for_github
+  master
 ```
 
 
+3. Adding the Github repository for https://micrometreuk.github.ioi. We will call it from_gitea_to_github.
 
-
-
-
-
-
-1. Create a new branch: we will all this one for_github
 
 ```bash
-git checkout -b for_github
+git remote add from_gitea_to_github git@github.com:micrometreuk/micrometreuk.github.io.git
 ```
 
-2. Add the Github repository, same above 
+
+4. After makeing the changes ie updating posts etc, run only the command bellow.
+
+Don't dit add or git commit for now. We will need to push to the Github Pages master.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
