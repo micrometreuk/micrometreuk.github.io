@@ -133,12 +133,12 @@ make  push_to_gitea
 
 **We need to Make sure no secrets are pushed to Github.**
 
-1. From the project directory change to the for_github branch
+1 From the project directory change to the for_github branch
 
 ```bash
 git checkout for_github
 ```
-2. To confirm we are on the correct branch for Github.
+2 To confirm we are on the correct branch for Github.
 
 ```bash
 git branch 
@@ -149,7 +149,7 @@ git branch
 ```
 
 
-3. Adding the Github repository for https://micrometreuk.github.ioi. We will call it from_gitea_to_github.
+3 Adding the Github repository for https://micrometreuk.github.ioi. We will call it from_gitea_to_github.
 
 
 ```bash
@@ -157,9 +157,9 @@ git remote add from_gitea_to_github git@github.com:micrometreuk/micrometreuk.git
 ```
 
 
-4. After makeing the changes ie updating posts etc, run only the command bellow.
+4 After makeing the changes ie updating posts etc, run only the command bellow.
 
-Don't dit add or git commit for now. We will need to push to the Github Pages master.
+Don't add or git commit for now. We will need to push to the Github Pages master.
 
 
 
