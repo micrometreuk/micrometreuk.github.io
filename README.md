@@ -195,6 +195,24 @@ push_to_droplet:
 ```bash
 make  push_to_gitea
 ```
+
+
+
+### Create posts, pages and drafts with jekyll-compose.
+
+```bash
+Create posts, pages and drafts with jekyll-compose.
+
+1. bundle exec jekyll draft "New Post"     
+
+2. bundle exec jekyll post "New Post"     
+
+3. bundle exec jekyll page "New Post"     
+```
+
+
+
+
 ## To do list
 
 ### complete the project
