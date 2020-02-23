@@ -179,7 +179,6 @@ docker-compose stop                                 # stops the running containe
 docker-compose up -d                                # runs/re-starts the container
 ```
 *The public directory isn't a repository, Only the code for deployment*.
-
 Use Makefile for tab compltion(short-cut).
 
 ```bash
