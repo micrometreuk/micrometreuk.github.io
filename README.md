@@ -5,7 +5,6 @@
 1. Docker and Docker Compose
 2. Github account
 
-
 To Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions follow the post from. https://micrometre.co.uk/2020/02/06/docker.html
 
 To Configure SSH Client for  key-based authentication use  follow post from.
