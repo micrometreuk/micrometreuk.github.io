@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-02-25T02:26:09+00:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Micrometreuk</title><subtitle>Automating build environment.</subtitle><entry><title type="html">webmin</title><link href="http://0.0.0.0:4000/2020/02/25/webmin.html" rel="alternate" type="text/html" title="webmin" /><published>2020-02-25T02:25:00+00:00</published><updated>2020-02-25T02:25:00+00:00</updated><id>http://0.0.0.0:4000/2020/02/25/webmin</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/25/webmin.html">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-02-24T20:36:55-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Micrometreuk</title><subtitle>Automating build environment.</subtitle><entry><title type="html">webmin</title><link href="http://0.0.0.0:4000/2020/02/24/webmin.html" rel="alternate" type="text/html" title="webmin" /><published>2020-02-24T20:25:00-06:00</published><updated>2020-02-24T20:25:00-06:00</updated><id>http://0.0.0.0:4000/2020/02/24/webmin</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/24/webmin.html">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Run shell commands from web browser&lt;/p&gt;
 
 &lt;h3 id=&quot;1-in-a-docker-container&quot;&gt;1. In a Docker container.&lt;/h3&gt;
@@ -8,10 +8,11 @@
   &lt;li&gt;Docker and Docker Compose&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;For this demo the Requirements are Docker and docker-compose. To Install Docker CE and Docker Compose follow the post from.https://micrometre.co.uk/2020/02/06/docker.html&lt;/p&gt;
+&lt;p&gt;For this demo the Requirements are Docker and docker-compose. To Install Docker CE and Docker Compose follow the post from. https://micrometre.co.uk/2020/02/06/docker.html&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Clone the repo and use the make file to get started.
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;&lt;a href=&quot;https://micrometre.co.uk/2020/02/06/docker.html&quot; target=&quot;_blank&quot;&gt; LTo Install Docker CE and Docker Compose follow the post  https://micrometre.co.uk/2020/02/06/docker.html&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Clone the repo and use the make file to get started.&lt;/p&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git clone git@github.com:micrometreuk/webmin.git
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -35,7 +36,7 @@ npm run &lt;span class=&quot;nb&quot;&gt;test
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;h4 id=&quot;access-using&quot;&gt;Access using&lt;/h4&gt;
-&lt;p&gt;http://localhost:9091&lt;/p&gt;</content><author><name></name></author><summary type="html">Overview Run shell commands from web browser</summary></entry><entry><title type="html">Jekyll &amp;amp; Docker</title><link href="http://0.0.0.0:4000/2020/02/18/jekyll-docker.html" rel="alternate" type="text/html" title="Jekyll &amp; Docker" /><published>2020-02-18T12:53:00+00:00</published><updated>2020-02-18T12:53:00+00:00</updated><id>http://0.0.0.0:4000/2020/02/18/jekyll-docker</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/18/jekyll-docker.html">&lt;h3 id=&quot;deploy-a-jekyll-site-using-git-hooks-and-docker-on-localhost&quot;&gt;Deploy a Jekyll Site Using Git Hooks and Docker on &lt;strong&gt;localhost&lt;/strong&gt;.&lt;/h3&gt;
+&lt;p&gt;http://localhost:9091&lt;/p&gt;</content><author><name></name></author><summary type="html">Overview Run shell commands from web browser</summary></entry><entry><title type="html">Jekyll &amp;amp; Docker</title><link href="http://0.0.0.0:4000/2020/02/18/jekyll-docker.html" rel="alternate" type="text/html" title="Jekyll &amp; Docker" /><published>2020-02-18T06:53:00-06:00</published><updated>2020-02-18T06:53:00-06:00</updated><id>http://0.0.0.0:4000/2020/02/18/jekyll-docker</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/18/jekyll-docker.html">&lt;h3 id=&quot;deploy-a-jekyll-site-using-git-hooks-and-docker-on-localhost&quot;&gt;Deploy a Jekyll Site Using Git Hooks and Docker on &lt;strong&gt;localhost&lt;/strong&gt;.&lt;/h3&gt;
 
 &lt;h2 id=&quot;dependencies&quot;&gt;Dependencies&lt;/h2&gt;
 
@@ -157,7 +158,7 @@ git push &lt;span class=&quot;nt&quot;&gt;-u&lt;/span&gt; origin master
   &lt;li&gt;
     &lt;p&gt;bundle exec jekyll page “New Post”&lt;/p&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name></name></author><summary type="html">Deploy a Jekyll Site Using Git Hooks and Docker on localhost.</summary></entry><entry><title type="html">Configure SSH</title><link href="http://0.0.0.0:4000/2020/02/18/ssh.html" rel="alternate" type="text/html" title="Configure SSH" /><published>2020-02-18T02:33:45+00:00</published><updated>2020-02-18T02:33:45+00:00</updated><id>http://0.0.0.0:4000/2020/02/18/ssh</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/18/ssh.html">&lt;h3 id=&quot;ssh-key-based-authentication&quot;&gt;SSH key-based authentication&lt;/h3&gt;
+&lt;/ol&gt;</content><author><name></name></author><summary type="html">Deploy a Jekyll Site Using Git Hooks and Docker on localhost.</summary></entry><entry><title type="html">Configure SSH</title><link href="http://0.0.0.0:4000/2020/02/17/ssh.html" rel="alternate" type="text/html" title="Configure SSH" /><published>2020-02-17T20:33:45-06:00</published><updated>2020-02-17T20:33:45-06:00</updated><id>http://0.0.0.0:4000/2020/02/17/ssh</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/17/ssh.html">&lt;h3 id=&quot;ssh-key-based-authentication&quot;&gt;SSH key-based authentication&lt;/h3&gt;
 
 &lt;p&gt;Open SSH By default stores key pairs in the user’s home ~/.ssh directory.&lt;/p&gt;
 
@@ -275,107 +276,7 @@ fatal: Could not &lt;span class=&quot;nb&quot;&gt;read &lt;/span&gt;from remote 
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Host &lt;span class=&quot;k&quot;&gt;*&lt;/span&gt;
     StrictHostKeyChecking no
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">SSH key-based authentication</summary></entry><entry><title type="html">Load balancing with lxc containers</title><link href="http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/haproxy.html" rel="alternate" type="text/html" title="Load balancing with lxc containers" /><published>2020-02-07T01:23:10+00:00</published><updated>2020-02-07T01:23:10+00:00</updated><id>http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/haproxy</id><content type="html" xml:base="http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/haproxy.html">&lt;p&gt;This configuration of software demonstrates the Round Robin principle of a load balancer&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Two webservers provided by Nginx&lt;/li&gt;
-  &lt;li&gt;Haproxy as the Load Balancer&lt;/li&gt;
-  &lt;li&gt;Ansible for configuration mangmnent&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h1 id=&quot;dependencies&quot;&gt;Dependencies&lt;/h1&gt;
-
-&lt;p&gt;LXD &amp;amp; Ansible&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;repo&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;micrometreuk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;haproxy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Change&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;haproxy&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Creating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;containers&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;provisioning&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;required&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;software&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;within&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;them&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;containers&lt;/span&gt;
-&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Destroy&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;demo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enviroment&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Once&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;finished&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;demonstration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
-&lt;span class=&quot;nf&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unmake&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h3 id=&quot;installation-validation-test&quot;&gt;Installation Validation Test&lt;/h3&gt;
-&lt;p&gt;You should see somthing displayed similar to the below:&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/images/demo.gif&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This configuration of software demonstrates the Round Robin principle of a load balancer</summary></entry><entry><title type="html">Online Resources</title><link href="http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/links.html" rel="alternate" type="text/html" title="Online Resources" /><published>2020-02-07T01:23:10+00:00</published><updated>2020-02-07T01:23:10+00:00</updated><id>http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/links</id><content type="html" xml:base="http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/links.html">&lt;h3 id=&quot;developer-tools-and-tutorials&quot;&gt;Developer tools and Tutorials.&lt;/h3&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.katacoda.com/ &quot; target=&quot;_blank&quot;&gt; Learn new technologies in a web browser https://www.katacoda.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://ubuntu.com/tutorials&quot; target=&quot;_blank&quot;&gt;Tutorials for dev-ops and activities on Ubuntu machines https://ubuntu.com/tutorials&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://repl.it&quot; target=&quot;_blank&quot;&gt; Compiler, IDE, interpreter, REPL and Real-time collaborative https://repl.it&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.floydhub.com&quot; target=&quot;_blank&quot;&gt;Managed cloud platform for data science https://www.floydhub.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.tensorflow.org/tutorials&quot; target=&quot;_blank&quot;&gt; Open source machine learning platform https://www.tensorflow.org&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://stackshare.io &quot; target=&quot;_blank&quot;&gt;Reviews of popular open source tools https://stackshare.io&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://security.stackexchange.com &quot; target=&quot;_blank&quot;&gt;Question and answer site for security professionals.https://security.stackexchange.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.itgovernance.co.uk/what-is-cybersecurity&quot; target=&quot;_blank&quot;&gt;Everything you need to know about protecting your organisation from cyber attacks.&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.metasploit.com&quot; target=&quot;_blank&quot;&gt;Information about Security vulnerabilities and aids in penetration testing  https://www.metasploit.com&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.owasp.org &quot; target=&quot;_blank&quot;&gt; The Open Web Application Security Project (OWASP)&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.pine64.org/pinephone&quot; target=&quot;_blank&quot;&gt;An Open Source Smart Phone Supported by All Major Linux Phone Projects&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://puri.sm/products/librem-5&quot; target=&quot;_blank&quot;&gt;Open-source operating system that is not based on Android or iOS&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Developer tools and Tutorials.</summary></entry><entry><title type="html">Install Nodejs</title><link href="http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/nodejs.html" rel="alternate" type="text/html" title="Install Nodejs" /><published>2020-02-07T01:23:10+00:00</published><updated>2020-02-07T01:23:10+00:00</updated><id>http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/nodejs</id><content type="html" xml:base="http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/nodejs.html">&lt;h3 id=&quot;install-nodejs-lts-on--ubuntu-debian-based-linux-distribution&quot;&gt;Install Node.js (LTS) on  Ubuntu debian based linux distribution&lt;/h3&gt;
-
-&lt;h4 id=&quot;get-an-up-to-date-version-of-nodejs--from-the-ppa-personal-package-archive-maintained-by-nodesource&quot;&gt;Get an up-to-date version of Node.js  from the PPA (personal package archive) maintained by NodeSource.&lt;/h4&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.com/setup_12.x | &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-E&lt;/span&gt; bash -
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
-&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; nodejs
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;use--nodejs-version-manager-to-manage-multiple-versions&quot;&gt;Use  Node.js Version Manager to manage multiple versions.&lt;/h4&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;NVM works  within your home directory.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Install multiple self-contained versions of Node.js&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;Access the latest versions of Node.js  and retain and manage previous releases.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h4 id=&quot;download-installation-script-from-the-repository-on--github&quot;&gt;Download installation script from the Repository on  GitHub.&lt;/h4&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; install_nvm.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h4 id=&quot;install-nvm&quot;&gt;Install NVM&lt;/h4&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bash install_nvm.sh
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;source-the-profile-for-the--current-session&quot;&gt;source the .profile for the  current session.&lt;/h4&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt;  ~/.profile 
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;h4 id=&quot;to-install-nodejs-lts&quot;&gt;To Install nodejs LTS&lt;/h4&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nvm &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;12.15.0
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;h4 id=&quot;verify-installation&quot;&gt;Verify Installation&lt;/h4&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nodejs &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
-Output
-v12.15.0
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
-Output
-6.13.4
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://nodejs.org/en&quot; target=&quot;_blank&quot;&gt; For the official documentation on how to install Nodejs visit:https://nodejs.org/en&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Install Node.js (LTS) on Ubuntu debian based linux distribution</summary></entry><entry><title type="html">Install Docker</title><link href="http://0.0.0.0:4000/2020/02/07/docker.html" rel="alternate" type="text/html" title="Install Docker" /><published>2020-02-07T01:23:10+00:00</published><updated>2020-02-07T01:23:10+00:00</updated><id>http://0.0.0.0:4000/2020/02/07/docker</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/07/docker.html">&lt;h3 id=&quot;install-docker-ce-and-docker-compose-on-debian-and-ubuntu-based-linux-distributions&quot;&gt;Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions&lt;/h3&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;</content><author><name></name></author><summary type="html">SSH key-based authentication</summary></entry><entry><title type="html">Install Docker</title><link href="http://0.0.0.0:4000/2020/02/06/docker.html" rel="alternate" type="text/html" title="Install Docker" /><published>2020-02-06T19:23:10-06:00</published><updated>2020-02-06T19:23:10-06:00</updated><id>http://0.0.0.0:4000/2020/02/06/docker</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/06/docker.html">&lt;h3 id=&quot;install-docker-ce-and-docker-compose-on-debian-and-ubuntu-based-linux-distributions&quot;&gt;Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions&lt;/h3&gt;
 
 &lt;ul&gt;
   &lt;li&gt;Uninstall older versions of Docker, docker.io, or docker-engine.&lt;/li&gt;
@@ -438,4 +339,104 @@ software-properties-common
 &lt;hr /&gt;
 &lt;blockquote&gt;
   &lt;p&gt;log out and back in for this to take effect!&lt;/p&gt;
-&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions</summary></entry></feed>
+&lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions</summary></entry><entry><title type="html">Install Nodejs</title><link href="http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/nodejs.html" rel="alternate" type="text/html" title="Install Nodejs" /><published>2020-02-06T19:23:10-06:00</published><updated>2020-02-06T19:23:10-06:00</updated><id>http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/nodejs</id><content type="html" xml:base="http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/nodejs.html">&lt;h3 id=&quot;install-nodejs-lts-on--ubuntu-debian-based-linux-distribution&quot;&gt;Install Node.js (LTS) on  Ubuntu debian based linux distribution&lt;/h3&gt;
+
+&lt;h4 id=&quot;get-an-up-to-date-version-of-nodejs--from-the-ppa-personal-package-archive-maintained-by-nodesource&quot;&gt;Get an up-to-date version of Node.js  from the PPA (personal package archive) maintained by NodeSource.&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.com/setup_12.x | &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-E&lt;/span&gt; bash -
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
+&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; nodejs
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;use--nodejs-version-manager-to-manage-multiple-versions&quot;&gt;Use  Node.js Version Manager to manage multiple versions.&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;NVM works  within your home directory.&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Install multiple self-contained versions of Node.js&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Access the latest versions of Node.js  and retain and manage previous releases.&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;download-installation-script-from-the-repository-on--github&quot;&gt;Download installation script from the Repository on  GitHub.&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://raw.githubusercontent.com/creationix/nvm/v0.33.11/install.sh &lt;span class=&quot;nt&quot;&gt;-o&lt;/span&gt; install_nvm.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h4 id=&quot;install-nvm&quot;&gt;Install NVM&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;bash install_nvm.sh
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;source-the-profile-for-the--current-session&quot;&gt;source the .profile for the  current session.&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;nb&quot;&gt;source&lt;/span&gt;  ~/.profile 
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h4 id=&quot;to-install-nodejs-lts&quot;&gt;To Install nodejs LTS&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nvm &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;12.15.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h4 id=&quot;verify-installation&quot;&gt;Verify Installation&lt;/h4&gt;
+
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;nodejs &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
+Output
+v12.15.0
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;npm &lt;span class=&quot;nt&quot;&gt;-v&lt;/span&gt;
+Output
+6.13.4
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nodejs.org/en&quot; target=&quot;_blank&quot;&gt; For the official documentation on how to install Nodejs visit:https://nodejs.org/en&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Install Node.js (LTS) on Ubuntu debian based linux distribution</summary></entry><entry><title type="html">Online Resources</title><link href="http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/links.html" rel="alternate" type="text/html" title="Online Resources" /><published>2020-02-06T19:23:10-06:00</published><updated>2020-02-06T19:23:10-06:00</updated><id>http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/links</id><content type="html" xml:base="http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/links.html">&lt;h3 id=&quot;developer-tools-and-tutorials&quot;&gt;Developer tools and Tutorials.&lt;/h3&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.katacoda.com/ &quot; target=&quot;_blank&quot;&gt; Learn new technologies in a web browser https://www.katacoda.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ubuntu.com/tutorials&quot; target=&quot;_blank&quot;&gt;Tutorials for dev-ops and activities on Ubuntu machines https://ubuntu.com/tutorials&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://repl.it&quot; target=&quot;_blank&quot;&gt; Compiler, IDE, interpreter, REPL and Real-time collaborative https://repl.it&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.floydhub.com&quot; target=&quot;_blank&quot;&gt;Managed cloud platform for data science https://www.floydhub.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.tensorflow.org/tutorials&quot; target=&quot;_blank&quot;&gt; Open source machine learning platform https://www.tensorflow.org&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://stackshare.io &quot; target=&quot;_blank&quot;&gt;Reviews of popular open source tools https://stackshare.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://security.stackexchange.com &quot; target=&quot;_blank&quot;&gt;Question and answer site for security professionals.https://security.stackexchange.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.itgovernance.co.uk/what-is-cybersecurity&quot; target=&quot;_blank&quot;&gt;Everything you need to know about protecting your organisation from cyber attacks.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.metasploit.com&quot; target=&quot;_blank&quot;&gt;Information about Security vulnerabilities and aids in penetration testing  https://www.metasploit.com&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.owasp.org &quot; target=&quot;_blank&quot;&gt; The Open Web Application Security Project (OWASP)&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.pine64.org/pinephone&quot; target=&quot;_blank&quot;&gt;An Open Source Smart Phone Supported by All Major Linux Phone Projects&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://puri.sm/products/librem-5&quot; target=&quot;_blank&quot;&gt;Open-source operating system that is not based on Android or iOS&lt;/a&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">Developer tools and Tutorials.</summary></entry><entry><title type="html">Load balancing with lxc containers</title><link href="http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/haproxy.html" rel="alternate" type="text/html" title="Load balancing with lxc containers" /><published>2020-02-06T19:23:10-06:00</published><updated>2020-02-06T19:23:10-06:00</updated><id>http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/haproxy</id><content type="html" xml:base="http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/haproxy.html">&lt;p&gt;This configuration of software demonstrates the Round Robin principle of a load balancer&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Two webservers provided by Nginx&lt;/li&gt;
+  &lt;li&gt;Haproxy as the Load Balancer&lt;/li&gt;
+  &lt;li&gt;Ansible for configuration mangmnent&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;dependencies&quot;&gt;Dependencies&lt;/h1&gt;
+
+&lt;p&gt;LXD &amp;amp; Ansible&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;repo&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;git&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;clone&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;https&lt;/span&gt;&lt;span class=&quot;ss&quot;&gt;:/&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;github&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;com&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;micrometreuk&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;haproxy&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;git&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Change&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;to&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;directory&lt;/span&gt;
+&lt;span class=&quot;n&quot;&gt;cd&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;haproxy&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Creating&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;containers&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;and&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;provisioning&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;required&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;software&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;within&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;them&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;containers&lt;/span&gt;
+&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Destroy&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;the&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;demo&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;enviroment&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;Once&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;you&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;are&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;finished&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;with&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;this&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;demonstration&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;.&lt;/span&gt;
+&lt;span class=&quot;nf&quot;&gt;make&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;unmake&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h3 id=&quot;installation-validation-test&quot;&gt;Installation Validation Test&lt;/h3&gt;
+&lt;p&gt;You should see somthing displayed similar to the below:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/demo.gif&quot; alt=&quot;Alt Text&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">This configuration of software demonstrates the Round Robin principle of a load balancer</summary></entry></feed>

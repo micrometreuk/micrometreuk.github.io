@@ -5,19 +5,19 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
-<title>Online Resources | Micrometreuk</title>
+<title>webmin | Micrometreuk</title>
 <meta name="generator" content="Jekyll v4.0.0" />
-<meta property="og:title" content="Online Resources" />
+<meta property="og:title" content="webmin" />
 <meta property="og:locale" content="en_US" />
-<meta name="description" content="Developer tools and Tutorials." />
-<meta property="og:description" content="Developer tools and Tutorials." />
-<link rel="canonical" href="http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/links.html" />
-<meta property="og:url" content="http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/links.html" />
+<meta name="description" content="Overview Run shell commands from web browser" />
+<meta property="og:description" content="Overview Run shell commands from web browser" />
+<link rel="canonical" href="http://0.0.0.0:4000/2020/02/24/webmin.html" />
+<meta property="og:url" content="http://0.0.0.0:4000/2020/02/24/webmin.html" />
 <meta property="og:site_name" content="Micrometreuk" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-02-07T01:23:10+00:00" />
+<meta property="article:published_time" content="2020-02-24T20:25:00-06:00" />
 <script type="application/ld+json">
-{"description":"Developer tools and Tutorials.","@type":"BlogPosting","url":"http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/links.html","headline":"Online Resources","dateModified":"2020-02-07T01:23:10+00:00","datePublished":"2020-02-07T01:23:10+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/micrometreuk-articles/2020/02/07/links.html"},"@context":"https://schema.org"}</script>
+{"description":"Overview Run shell commands from web browser","headline":"webmin","dateModified":"2020-02-24T20:25:00-06:00","datePublished":"2020-02-24T20:25:00-06:00","@type":"BlogPosting","mainEntityOfPage":{"@type":"WebPage","@id":"http://0.0.0.0:4000/2020/02/24/webmin.html"},"url":"http://0.0.0.0:4000/2020/02/24/webmin.html","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 <link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://0.0.0.0:4000/feed.xml" title="Micrometreuk" /></head>
 <body><header class="site-header" role="banner">
@@ -40,43 +40,57 @@
         <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title p-name" itemprop="name headline">Online Resources</h1>
+    <h1 class="post-title p-name" itemprop="name headline">webmin</h1>
     <p class="post-meta">
-      <time class="dt-published" datetime="2020-02-07T01:23:10+00:00" itemprop="datePublished">Feb 7, 2020
+      <time class="dt-published" datetime="2020-02-24T20:25:00-06:00" itemprop="datePublished">Feb 24, 2020
       </time></p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    <h3 id="developer-tools-and-tutorials">Developer tools and Tutorials.</h3>
+    <h2 id="overview">Overview</h2>
+<p>Run shell commands from web browser</p>
 
-<p><a href="https://www.katacoda.com/ " target="_blank"> Learn new technologies in a web browser https://www.katacoda.com</a></p>
+<h3 id="1-in-a-docker-container">1. In a Docker container.</h3>
 
-<p><a href="https://ubuntu.com/tutorials" target="_blank">Tutorials for dev-ops and activities on Ubuntu machines https://ubuntu.com/tutorials</a></p>
+<h3 id="requirements">Requirements</h3>
+<ul>
+  <li>Docker and Docker Compose</li>
+</ul>
 
-<p><a href="https://repl.it" target="_blank"> Compiler, IDE, interpreter, REPL and Real-time collaborative https://repl.it</a></p>
+<p>For this demo the Requirements are Docker and docker-compose. To Install Docker CE and Docker Compose follow the post from. https://micrometre.co.uk/2020/02/06/docker.html</p>
 
-<p><a href="https://www.floydhub.com" target="_blank">Managed cloud platform for data science https://www.floydhub.com</a></p>
+<p><a href="https://micrometre.co.uk/2020/02/06/docker.html" target="_blank"> LTo Install Docker CE and Docker Compose follow the post  https://micrometre.co.uk/2020/02/06/docker.html</a></p>
 
-<p><a href="https://www.tensorflow.org/tutorials" target="_blank"> Open source machine learning platform https://www.tensorflow.org</a></p>
+<p>Clone the repo and use the make file to get started.</p>
 
-<p><a href="https://stackshare.io " target="_blank">Reviews of popular open source tools https://stackshare.io</a></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:micrometreuk/webmin.git
+</code></pre></div></div>
 
-<p><a href="https://security.stackexchange.com " target="_blank">Question and answer site for security professionals.https://security.stackexchange.com</a></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>make start_docker               <span class="c">#Start the container</span>
+mae update_docker               <span class="c">#Update/upgarde container</span>
+</code></pre></div></div>
 
-<p><a href="https://www.itgovernance.co.uk/what-is-cybersecurity" target="_blank">Everything you need to know about protecting your organisation from cyber attacks.</a></p>
+<h3 id="2-on-localhostwithout-docker">2. On localhost(without docker).</h3>
 
-<p><a href="https://www.metasploit.com" target="_blank">Information about Security vulnerabilities and aids in penetration testing  https://www.metasploit.com</a></p>
+<h3 id="requirements-1">Requirements</h3>
+<ul>
+  <li>Node.js</li>
+</ul>
 
-<p><a href="https://www.owasp.org " target="_blank"> The Open Web Application Security Project (OWASP)</a></p>
+<p>If you are deploying on localhost you will need node.js installed, to get started with node.js installation read the post from https://micrometre.co.uk/micrometreuk-articles/2020/02/06/nodejs.html</p>
 
-<p><a href="https://www.pine64.org/pinephone" target="_blank">An Open Source Smart Phone Supported by All Major Linux Phone Projects</a></p>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>npm run start
+npm run <span class="nb">test
+</span>npm run debug
+</code></pre></div></div>
 
-<p><a href="https://puri.sm/products/librem-5" target="_blank">Open-source operating system that is not based on Android or iOS</a></p>
+<h4 id="access-using">Access using</h4>
+<p>http://localhost:9091</p>
 
 
-  </div><a class="u-url" href="/micrometreuk-articles/2020/02/07/links.html" hidden></a>
+  </div><a class="u-url" href="/2020/02/24/webmin.html" hidden></a>
 </article>
-  <a class="u-url" href="/micrometreuk-articles/2020/02/07/links.html" hidden></a>
+  <a class="u-url" href="/2020/02/24/webmin.html" hidden></a>
 
 <div class="post-nav">
 <nav>
@@ -84,19 +98,19 @@
     <a href="/" >
       Home
     </a>
-  <a href="/2020/02/25/webmin.html">
+  <a href="/2020/02/24/webmin.html">
             webmin
            </a><a href="/2020/02/18/jekyll-docker.html">
             Jekyll &amp; Docker
-           </a><a href="/2020/02/18/ssh.html">
+           </a><a href="/2020/02/17/ssh.html">
             Configure SSH
-           </a><a href="/2020/02/07/docker.html">
+           </a><a href="/2020/02/06/docker.html">
             Install Docker
-           </a><a href="/micrometreuk-articles/2020/02/07/nodejs.html">
+           </a><a href="/micrometreuk-articles/2020/02/06/nodejs.html">
             Install Nodejs
-           </a><a href="/micrometreuk-articles/2020/02/07/links.html">
+           </a><a href="/micrometreuk-articles/2020/02/06/links.html">
             Online Resources
-           </a><a href="/micrometreuk-articles/2020/02/07/haproxy.html">
+           </a><a href="/micrometreuk-articles/2020/02/06/haproxy.html">
             Load balancing with lxc containers
            </a></nav>
 </div>
