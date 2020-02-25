@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-02-24T20:36:55-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Micrometreuk</title><subtitle>Automating build environment.</subtitle><entry><title type="html">webmin</title><link href="http://0.0.0.0:4000/2020/02/24/webmin.html" rel="alternate" type="text/html" title="webmin" /><published>2020-02-24T20:25:00-06:00</published><updated>2020-02-24T20:25:00-06:00</updated><id>http://0.0.0.0:4000/2020/02/24/webmin</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/24/webmin.html">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-02-24T20:41:06-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Micrometreuk</title><subtitle>Automating build environment.</subtitle><entry><title type="html">webmin</title><link href="http://0.0.0.0:4000/2020/02/24/webmin.html" rel="alternate" type="text/html" title="webmin" /><published>2020-02-24T20:25:00-06:00</published><updated>2020-02-24T20:25:00-06:00</updated><id>http://0.0.0.0:4000/2020/02/24/webmin</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/24/webmin.html">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Run shell commands from web browser&lt;/p&gt;
 
 &lt;h3 id=&quot;1-in-a-docker-container&quot;&gt;1. In a Docker container.&lt;/h3&gt;
@@ -8,9 +8,7 @@
   &lt;li&gt;Docker and Docker Compose&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;p&gt;For this demo the Requirements are Docker and docker-compose. To Install Docker CE and Docker Compose follow the post from. https://micrometre.co.uk/2020/02/06/docker.html&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://micrometre.co.uk/2020/02/06/docker.html&quot; target=&quot;_blank&quot;&gt; LTo Install Docker CE and Docker Compose follow the post  https://micrometre.co.uk/2020/02/06/docker.html&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;&lt;a href=&quot;https://micrometre.co.uk/2020/02/06/docker.html&quot; target=&quot;_blank&quot;&gt; To get  started with Docker  follow the post  https://micrometre.co.uk/2020/02/06/docker.html&lt;/a&gt;&lt;/p&gt;
 
 &lt;p&gt;Clone the repo and use the make file to get started.&lt;/p&gt;
 
