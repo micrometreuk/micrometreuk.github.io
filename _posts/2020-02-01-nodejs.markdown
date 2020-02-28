@@ -5,10 +5,9 @@ date:   2020-02-07 01:23:10 +0000
 categories: micrometreuk-articles
 ---
 
-
 ### Install Node.js (LTS) on  Ubuntu debian based linux distribution
 
-#### Get an up-to-date version of Node.js  from the PPA (personal package archive) maintained by NodeSource. 
+1. Get an up-to-date version of Node.js  from the PPA (personal package archive) maintained by NodeSource. 
 
 ```bash
 curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
@@ -16,15 +15,13 @@ sudo apt-get update
 sudo apt-get install -y nodejs
 ```
 
-#### Use  Node.js Version Manager to manage multiple versions.
+2. Use  Node.js Version Manager to manage multiple versions.
 
 - NVM works  within your home directory. 
 
 - Install multiple self-contained versions of Node.js 
 
 - Access the latest versions of Node.js  and retain and manage previous releases. 
-
-
 
 #### Download installation script from the Repository on  GitHub.
 
@@ -44,7 +41,6 @@ source  ~/.profile
 ```
 #### To Install nodejs LTS 
 
-
 ```bash
 nvm install 12.15.0
 ```
@@ -61,10 +57,6 @@ npm -v
 Output
 6.13.4
 ```
-
-
-
-
 
 
 <a href="https://nodejs.org/en" target="_blank"> For the official documentation on how to install Nodejs visit:https://nodejs.org/en</a> 

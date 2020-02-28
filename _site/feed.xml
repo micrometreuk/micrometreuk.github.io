@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-02-24T21:09:04-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Micrometreuk</title><subtitle>Automating build environment.</subtitle><entry><title type="html">webmin</title><link href="http://0.0.0.0:4000/2020/02/24/webmin.html" rel="alternate" type="text/html" title="webmin" /><published>2020-02-24T20:25:00-06:00</published><updated>2020-02-24T20:25:00-06:00</updated><id>http://0.0.0.0:4000/2020/02/24/webmin</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/24/webmin.html">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.0.0">Jekyll</generator><link href="http://0.0.0.0:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://0.0.0.0:4000/" rel="alternate" type="text/html" /><updated>2020-02-28T01:39:39-06:00</updated><id>http://0.0.0.0:4000/feed.xml</id><title type="html">Micrometreuk</title><subtitle>Automating build environment.</subtitle><entry><title type="html">webmin</title><link href="http://0.0.0.0:4000/2020/02/24/webmin.html" rel="alternate" type="text/html" title="webmin" /><published>2020-02-24T20:25:00-06:00</published><updated>2020-02-24T20:25:00-06:00</updated><id>http://0.0.0.0:4000/2020/02/24/webmin</id><content type="html" xml:base="http://0.0.0.0:4000/2020/02/24/webmin.html">&lt;h2 id=&quot;overview&quot;&gt;Overview&lt;/h2&gt;
 &lt;p&gt;Run shell commands from web browser&lt;/p&gt;
 
 &lt;h3 id=&quot;1-in-a-docker-container&quot;&gt;1. In a Docker container.&lt;/h3&gt;
@@ -339,14 +339,18 @@ software-properties-common
   &lt;p&gt;log out and back in for this to take effect!&lt;/p&gt;
 &lt;/blockquote&gt;</content><author><name></name></author><summary type="html">Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions</summary></entry><entry><title type="html">Install Nodejs</title><link href="http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/nodejs.html" rel="alternate" type="text/html" title="Install Nodejs" /><published>2020-02-06T19:23:10-06:00</published><updated>2020-02-06T19:23:10-06:00</updated><id>http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/nodejs</id><content type="html" xml:base="http://0.0.0.0:4000/micrometreuk-articles/2020/02/06/nodejs.html">&lt;h3 id=&quot;install-nodejs-lts-on--ubuntu-debian-based-linux-distribution&quot;&gt;Install Node.js (LTS) on  Ubuntu debian based linux distribution&lt;/h3&gt;
 
-&lt;h4 id=&quot;get-an-up-to-date-version-of-nodejs--from-the-ppa-personal-package-archive-maintained-by-nodesource&quot;&gt;Get an up-to-date version of Node.js  from the PPA (personal package archive) maintained by NodeSource.&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Get an up-to-date version of Node.js  from the PPA (personal package archive) maintained by NodeSource.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;curl &lt;span class=&quot;nt&quot;&gt;-sL&lt;/span&gt; https://deb.nodesource.com/setup_12.x | &lt;span class=&quot;nb&quot;&gt;sudo&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-E&lt;/span&gt; bash -
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get update
 &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt-get &lt;span class=&quot;nb&quot;&gt;install&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;-y&lt;/span&gt; nodejs
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;h4 id=&quot;use--nodejs-version-manager-to-manage-multiple-versions&quot;&gt;Use  Node.js Version Manager to manage multiple versions.&lt;/h4&gt;
+&lt;ol&gt;
+  &lt;li&gt;Use  Node.js Version Manager to manage multiple versions.&lt;/li&gt;
+&lt;/ol&gt;
 
 &lt;ul&gt;
   &lt;li&gt;
