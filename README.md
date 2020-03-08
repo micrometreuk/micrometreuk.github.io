@@ -1,6 +1,5 @@
 ####  Jekyll, Github Pages and Docker 
 
-
 ##### Dependencies 
 
 1. Docker and Docker Compose
