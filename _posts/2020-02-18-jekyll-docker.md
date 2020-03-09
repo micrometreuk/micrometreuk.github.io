@@ -13,7 +13,7 @@ date: 2020-02-18 12:53 +0000
 
 To get started with Docker Community Edition  follow the article, 
 
-<a href= "https://micrometre.co.uk/2020/02/06/docker.html" target="_blank">Install Docker CE on Ubuntu and Debian</a> 
+<a href= "https://micrometreuk.github.io/2020/02/07/docker.html" target="_blank">Install Docker CE on Ubuntu and Debian https://micrometreuk.github.io/2020/02/07/docker.html</a> 
 
 
 ## Server side 
