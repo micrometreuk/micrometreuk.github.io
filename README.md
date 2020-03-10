@@ -5,7 +5,7 @@
 1. Docker and Docker Compose
 2. Github account
 
-To Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions follow the post from. https://micrometre.co.uk/2020/02/06/docker.html
+To Install Docker CE and Docker Compose on Debian and Ubuntu based Linux distributions follow the post from. https://micrometreuk.github.io/2020/02/07/docker.html
 
 
 Clone the soure repository
