@@ -16,7 +16,7 @@ categories: micrometreuk-articles
 <a href="https://ubuntu.com/tutorials" target="_blank">Tutorials for dev-ops and activities on Ubuntu machines. https://ubuntu.com/tutorials</a> 
 
 
-<a href="https://nrelabs.io/" target="_blank"> Learn automation by doing it. Right now, right here, in your browser. https://nrelabs.io/</a> 
+<a href="https://nrelabs.io/catalog" target="_blank"> Learn automation by doing it. Right now, right here, in your browser. https://nrelabs.io/catalog</a> 
 
 
 <a href="https://www.digitalocean.com/community/tutorials" target="_blank"> Development and sysadmin tutorials. https://www.digitalocean.com/community/tutorials</a> 
