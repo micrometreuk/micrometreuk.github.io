@@ -15,6 +15,7 @@ header_pages:
   - testi.md
   - hosting.md
   - services.md
+  - learn.md
   - contact.md
   - privacy.md
 show_excerpts: true
