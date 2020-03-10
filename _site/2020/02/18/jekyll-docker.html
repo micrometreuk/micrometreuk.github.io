@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<script src="https://unpkg.com/vanilla-back-to-top@7.2.1/dist/vanilla-back-to-top.min.js"></script>
+
+<html lang="en"><head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1"><!-- Begin Jekyll SEO tag v2.6.1 -->
+<title>Jekyll &amp; Docker | Micrometreuk</title>
+<meta name="generator" content="Jekyll v4.0.0" />
+<meta property="og:title" content="Jekyll &amp; Docker" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Deploy a Jekyll Site Using Git Hooks and Docker on localhost." />
+<meta property="og:description" content="Deploy a Jekyll Site Using Git Hooks and Docker on localhost." />
+<link rel="canonical" href="http://localhost:4000/2020/02/18/jekyll-docker.html" />
+<meta property="og:url" content="http://localhost:4000/2020/02/18/jekyll-docker.html" />
+<meta property="og:site_name" content="Micrometreuk" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-02-18T12:53:00+00:00" />
+<script type="application/ld+json">
+{"description":"Deploy a Jekyll Site Using Git Hooks and Docker on localhost.","@type":"BlogPosting","url":"http://localhost:4000/2020/02/18/jekyll-docker.html","headline":"Jekyll &amp; Docker","dateModified":"2020-02-18T12:53:00+00:00","datePublished":"2020-02-18T12:53:00+00:00","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2020/02/18/jekyll-docker.html"},"@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+<link rel="stylesheet" href="/assets/main.css"><link type="application/atom+xml" rel="alternate" href="http://localhost:4000/feed.xml" title="Micrometreuk" /></head>
+<body><header class="site-header" role="banner">
+
+  <div class="wrapper"><a class="site-title" rel="author" href="/">Micrometreuk</a><nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <svg viewBox="0 0 18 15" width="18px" height="15px">
+              <path d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.032C17.335,0,18,0.665,18,1.484L18,1.484z M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.032C17.335,6.031,18,6.696,18,7.516L18,7.516z M18,13.516C18,14.335,17.335,15,16.516,15H1.484 C0.665,15,0,14.335,0,13.516l0,0c0-0.82,0.665-1.483,1.484-1.483h15.032C17.335,12.031,18,12.695,18,13.516L18,13.516z"/>
+            </svg>
+          </span>
+        </label>
+
+        <div class="trigger"><a class="page-link" href="/hosting/">Hosting</a><a class="page-link" href="/support/">Support</a><a class="page-link" href="/learn/">Learn</a><a class="page-link" href="/contact/">Contact</a><a class="page-link" href="/privacy.html">Privacy</a></div>
+      </nav></div>
+</header>
+<main class="page-content" aria-label="Content">
+      <div class="wrapper">
+        <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="post-header">
+    <h1 class="post-title p-name" itemprop="name headline">Jekyll &amp; Docker</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="2020-02-18T12:53:00+00:00" itemprop="datePublished">Feb 18, 2020
+      </time></p>
+  </header>
+
+  <div class="post-content e-content" itemprop="articleBody">
+    <h3 id="deploy-a-jekyll-site-using-git-hooks-and-docker-on-localhost">Deploy a Jekyll Site Using Git Hooks and Docker on <strong>localhost</strong>.</h3>
+
+<h2 id="dependencies">Dependencies</h2>
+
+<ul>
+  <li>Docker and Docker Compose</li>
+</ul>
+
+<p>To get started with Docker Community Edition  follow the article,</p>
+
+<p><a href="https://micrometreuk.github.io/2020/02/07/docker.html" target="_blank">Install Docker CE on Ubuntu and Debian https://micrometreuk.github.io/2020/02/07/docker.html</a></p>
+
+<h2 id="server-side">Server side</h2>
+
+<p>Dirctories needed for the project</p>
+
+<p>Create the folders From home  ~/</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">mkdir </span>hooks                    <span class="c"># Hooks directory.</span>
+<span class="nb">mkdir </span>hooks/jekyll.git         <span class="c"># Git initialized bare repository for tracking.</span>
+<span class="nb">mkdir </span>repos                    <span class="c"># Cloned sourde code.</span>
+<span class="nb">mkdir </span>puclic                   <span class="c"># Public directory.</span>
+<span class="nb">mkdir </span>puclic/jekyll            <span class="c"># http://localhost:4000 Site location.</span>
+</code></pre></div></div>
+<p>Change to jekyll.git hooks directory.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd</span> ~/hooks/jekyll.git
+</code></pre></div></div>
+<p>Initialize a new “bare repository” to track the deployment.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git init <span class="nt">--bare</span>
+</code></pre></div></div>
+
+<p>The post-receive hook to start producrion</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git <span class="nt">--work-tree</span><span class="o">=</span>/home/jekyll/public/jekyll <span class="se">\ </span>        <span class="c"># Path to working directory,     </span>
+<span class="nt">--git-dir</span><span class="o">=</span>/home/jekyll/hooks/jekyll.git checkout <span class="nt">-f</span>  <span class="c"># Git directory </span>
+<span class="nb">cd</span> ~/public/jekyll                                   <span class="c"># Changes to producrion location</span>
+docker-compose stop                                  <span class="c"># Stops the running container</span>
+docker-compose up <span class="nt">-d</span>                                 <span class="c"># Runs/re-starts the container</span>
+</code></pre></div></div>
+
+<h2 id="client-side">Client side</h2>
+<p>Clone the soure repository</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone git@github.com:micrometre/jekyll.git
+</code></pre></div></div>
+
+<p>Changing to the cloned repository from github.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nb">cd </span>jekyll
+</code></pre></div></div>
+<p>Add the deployment hook for the git initialized repository remote url.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote add localhost user@localhost:hooks/jekyll.git
+
+</code></pre></div></div>
+<ul>
+  <li>Verify/Show git-remote url</li>
+</ul>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote <span class="nt">-v</span>
+droplet	user@localhost:hooks/jekyll.git <span class="o">(</span>fetch<span class="o">)</span>
+droplet	user@localhost:hooks/jekyll.git <span class="o">(</span>push<span class="o">)</span>
+origin	git@github.com:micrometre/jekyll.git <span class="o">(</span>fetch<span class="o">)</span>
+origin	git@github.com:micrometre/jekyll.git <span class="o">(</span>push<span class="o">)</span>
+</code></pre></div></div>
+<p>Confirm read/write permision to the deployment repository(on localhost).</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git remote show localhost
+<span class="k">*</span> remote droplet
+  Fetch URL: user@localhost:hooks/jekyll.git
+  Push  URL: user@localhost:hooks/jekyll.git
+  HEAD branch: master
+  Remote branch:
+    master tracked
+  Local branch configured <span class="k">for</span> <span class="s1">'git pull'</span>:
+    master merges with remote master
+  Local ref configured <span class="k">for</span> <span class="s1">'git push'</span>:
+    master pushes to master <span class="o">(</span>up-to-date<span class="o">)</span>
+</code></pre></div></div>
+
+<p>Now we can push and pull from either remote urls.</p>
+
+<p>Push to localhost to deploy.</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s2">"pushing to deploy localhost"</span>
+git push <span class="nt">-u</span> localhost master	
+
+<span class="c"># Successfull deployment will out put something similar </span>
+
+remote: Deploying master branch to production...
+remote: Stopping jekyll_jekyll_1 ... <span class="k">done
+</span>remote: Recreating jekyll_jekyll_1 ... <span class="k">done
+</span>remote: Starting jekyll ... <span class="k">done
+</span>remote: Successfully deployed master branch <span class="nb">.</span>
+To localhost:hooks/jekyll.git
+   4bcce5c..b7f6bf0  master -&gt; master
+
+</code></pre></div></div>
+<p>Push to git hub</p>
+
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add <span class="nb">.</span>
+git commit <span class="nt">-m</span> <span class="s2">"pushing to git hub"</span>
+git push <span class="nt">-u</span> origin master	
+</code></pre></div></div>
+
+<h3 id="geting-started">Geting started</h3>
+
+<p>Create posts, pages and drafts with jekyll-compose.</p>
+
+<ol>
+  <li>
+    <p>bundle exec jekyll draft “New Post”</p>
+  </li>
+  <li>
+    <p>bundle exec jekyll post “New Post”</p>
+  </li>
+  <li>
+    <p>bundle exec jekyll page “New Post”</p>
+  </li>
+</ol>
+
+
+  </div><a class="u-url" href="/2020/02/18/jekyll-docker.html" hidden></a>
+</article>
+  <a class="u-url" href="/2020/02/18/jekyll-docker.html" hidden></a>
+
+<div class="post-nav">
+<nav>
+  
+    <a href="/" >
+      Home
+    </a>
+  <a href="/2020/02/25/webmin.html">
+            webmin
+           </a><a href="/2020/02/18/jekyll-docker.html">
+            Jekyll &amp; Docker
+           </a><a href="/2020/02/18/ssh.html">
+            Configure SSH
+           </a><a href="/2020/02/07/docker.html">
+            Install Docker
+           </a><a href="/micrometreuk-articles/2020/02/07/nodejs.html">
+            Install Nodejs
+           </a><a href="/micrometreuk-articles/2020/02/07/links.html">
+            Online Resources
+           </a><a href="/micrometreuk-articles/2020/02/07/haproxy.html">
+            Load balancing with lxc containers
+           </a></nav>
+</div>
+
+      </div>
+    </main><footer class="site-footer h-card">
+  <data class="u-url" href="/"></data>
+
+  <div class="wrapper">
+
+    <h2 class="footer-heading">Micrometreuk</h2>
+
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <ul class="contact-list">
+          <li class="p-name">Micrometreuk</li><li><a class="u-email" href="mailto:info@micrometre.co.uk">info@micrometre.co.uk</a></li></ul>
+      </div>
+
+      <div class="footer-col footer-col-2"><ul class="social-media-list"></ul>
+</div>
+
+      <div class="footer-col footer-col-3">
+        <p>Automating build environment.</p>
+      </div>
+    </div>
+
+  </div>
+
+<script>addBackToTop({
+  diameter: 56,
+  backgroundColor: 'rgb(255, 82, 82)',
+  textColor: '#fff'
+})</script>
+
+
+
+
+</footer>
+</body>
+
+</html>
