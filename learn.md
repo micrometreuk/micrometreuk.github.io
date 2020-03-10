@@ -13,6 +13,12 @@ permalink: /learn/
 <a href="https://ubuntu.com/tutorials" target="_blank">Tutorials for dev-ops and activities on Ubuntu machines. https://ubuntu.com/tutorials</a> 
 
 
+<a href="https://www.redhat.com/sysadmin/" target="_blank">How-tos, tutorials,  tips and tricks, and more. https://www.redhat.com/sysadmin/</a> 
+
+
+<a href="https://docs.microsoft.com/en-us/azure/devops/learn/" target="_blank">DevOps Resource Center /https://docs.microsoft.com/en-us/azure/devops/learn, </a> 
+
+
 <a href="https://go.nrelabs.io/catalog/" target="_blank"> Learn automation by doing it. Right now, right here, in your browser. https://go.nrelabs.io/catalog/</a> 
 
 
@@ -88,6 +94,5 @@ permalink: /learn/
 
 
 ### Lectures and Podacsts.
-
 
 <a href="http://cs75.tv/2012/summer/" target="_blank"> Computer Science course at Harvard Extension School. http://cs75.tv/2012/summer/</a>
