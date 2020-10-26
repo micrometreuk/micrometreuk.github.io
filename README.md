@@ -6,9 +6,9 @@
 2. Github account
 
 
-<a href="https://micrometreuk.github.io/2020/02/07/docker.html" target="_blank"> To Install Docker CE and Docker Compose  follow the post from.</a> 
+<a href="https://micrometreuk.github.io/2020/02/07/docker.html" target="_blank"> To Install Docker CE and Docker Compose follow the post from.</a> 
 
-Clone the soure repository
+Clone the source repository
 
 ```bash
 git clone git@github.com:micrometre/jekyll.git
